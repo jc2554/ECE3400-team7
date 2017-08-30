@@ -1,14 +1,30 @@
-## Welcome to GitHub Pages
+## Team 7
 
 You can use the [editor on GitHub](https://github.com/jc2554/ECE3400-team7/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Lab
+[Lab 1](https://jc2554.github.io/ECE3400-team7/lab1)
+[Lab 2](https://jc2554.github.io/ECE3400-team7/lab2)
+[Lab 3](https://jc2554.github.io/ECE3400-team7/lab3)
+[Lab 4](https://jc2554.github.io/ECE3400-team7/lab4)
 
-[Lab 1](https://github.com/jc2554/ECE3400-team7/lab1.md)
+### Milestone
+[Milestone 1](https://jc2554.github.io/ECE3400-team7/milestone1)
+[Milestone 2](https://jc2554.github.io/ECE3400-team7/milestone2)
+[Milestone 3](https://jc2554.github.io/ECE3400-team7/milestone3)
+[Milestone 4](https://jc2554.github.io/ECE3400-team7/milestone4)
 
-### Markdown
+### Contributors
+ - [JinJie Chen](jc2554@cornell.edu)
+ - [Kenneth Cesar Huaman](kch96@cornell.edu)
+ - [Khyati Sipani](ks965@cornell.edu)
+ - [Adrian Higgins Dohmann](ahd59@cornell.edu)
+ - [Amanda Pathmanathan](ap763@cornell.edu)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+
+
 
 ```markdown
 Syntax highlighted code block
