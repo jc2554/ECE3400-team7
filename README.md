@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/jc2554/ECE3400-team7/edit/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 ### Lab
-[Lab 1](https://jc2554.github.io/ECE3400-team7/lab1)
+[Lab 1](lab1)
 [Lab 2](https://jc2554.github.io/ECE3400-team7/lab2)
 [Lab 3](https://jc2554.github.io/ECE3400-team7/lab3)
 [Lab 4](https://jc2554.github.io/ECE3400-team7/lab4)
@@ -16,7 +16,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 [Milestone 4](https://jc2554.github.io/ECE3400-team7/milestone4)
 
 ### Contributors
- - [JinJie Chen](jc2554@cornell.edu)
+ - [JinJie Chen](https://jc2554@cornell.edu)
  - [Kenneth Cesar Huaman](kch96@cornell.edu)
  - [Khyati Sipani](ks965@cornell.edu)
  - [Adrian Higgins Dohmann](ahd59@cornell.edu)
