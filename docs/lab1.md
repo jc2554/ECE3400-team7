@@ -86,5 +86,5 @@ Oscilloscope: Freq at ~50Hz
 
 
 ### Useful Resource
- - This wiki contain useful reference on how to creat a github page with Markdown  
- [Link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+ - This [wiki page](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) contain useful reference on how to creat a github page with Markdown  
+ 
