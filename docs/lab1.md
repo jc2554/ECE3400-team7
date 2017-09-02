@@ -72,6 +72,6 @@ Oscilloscope: Freq at ~50Hz
  - Last, we made the robot to drive in a octagon, but the timing for the motor need to be tune more finely to make precise turns.  
 [![robot Video](./docs/image/1_11.jpg)](https://youtu.be/gRwe7V_8tsg)
 
-![robot](./docs/image/1_11.jpg)
-![robot](./image/1_11.jpg)
-![robot](image/1_11.jpg)
+![robot](./docs/image/1_11.JPG)  
+![robot](./image/1_11.JPG)  
+![robot](image/1_11.JPG)
