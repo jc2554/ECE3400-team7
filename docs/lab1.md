@@ -10,6 +10,7 @@ Learn basic functionalities of the Arduino Uno and the Arduino IDE, and assembly
 
  - Test example code "Blink"  
  The example can be found under: File > Examples > 1.Basics > Blink  
+ 
 ```C
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
@@ -39,29 +40,38 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
+
 [![External Blink Video](./docs/image/1_1.jpg)](https://www.youtube.com/watch?v=rXavyW0d1EY&index=6&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=4)  
  - Take potentiometer as the analog input and write analog output to an external LED.  
+ 
  ```C
   value = analogRead(PININ);//Reads an ADC conversion from pin A0 using default settings for the ADC.
   Serial.println(value);//print value to screen
   delay(100);//wait .1 sec
   analogWrite(PINOUT,value>>2);//write value out to the LED
  ```  
+ 
  [![potentiometer Video](./docs/image/1_4.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=3)  
  Oscilloscope: Freq at ~50Hz
  ![Oscilloscope](./docs/image/1_7.jpg)  
  - Using the servo.h library to controlled a servo motor  
+ 
  ```C
  #include <Servo.h>  //import Library
 Servo servo1;      //Declare instance of servo
 servo1.attach(10); //Attach the servo input to pin 10 (PWM)
 servo1.write(0);   //ouputting 0 = max speed reverse, 90 = stop, 180 = max speed forward
 ```  
+
 [![servo Video](./docs/image/1_6.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=1)  
 Oscilloscope: Freq at ~50Hz
 ![Oscilloscope1](./docs/image/1_8.jpg)  
 ![Oscilloscope2](./docs/image/1_9.jpg)  
  - We assembled the robot with basic parts  
 ![robot](./docs/image/1_10.jpg)  
- - Last, we made the robot to drive in a octagon, but the timing for the motor need to be tune more finely to make precise turns.
-[![robot Video](image/1_11.jpg)](https://youtu.be/gRwe7V_8tsg)
+ - Last, we made the robot to drive in a octagon, but the timing for the motor need to be tune more finely to make precise turns.  
+[![robot Video](./docs/image/1_11.jpg)](https://youtu.be/gRwe7V_8tsg)
+
+![robot](./docs/image/1_11.jpg)
+![robot](./image/1_11.jpg)
+![robot](image/1_11.jpg)
