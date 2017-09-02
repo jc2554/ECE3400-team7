@@ -24,7 +24,7 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```  
-![Embedded Blink Video](https://www.youtube.com/watch?v=gp3k0bbmByw&index=5&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=5)  
+[![Embedded Blink Video](./image/1_0.jpg)](https://www.youtube.com/watch?v=gp3k0bbmByw)  
  - The following code test blink function on an external LED  
  
 ```C
@@ -41,7 +41,7 @@ void loop() {
 }
 ```
 
-[![External Blink Video](./image/1_1.jpg)](https://www.youtube.com/watch?v=rXavyW0d1EY&index=6&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=4)  
+[![External Blink Video](./image/1_1.jpg)](https://www.youtube.com/watch?v=rXavyW0d1EY)  
  - Take potentiometer as the analog input and write analog output to an external LED.  
  
  ```C
@@ -51,7 +51,7 @@ void loop() {
   analogWrite(PINOUT,value>>2);//write value out to the LED
  ```  
  
- [![potentiometer Video](./image/1_4.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=3)  
+ [![potentiometer Video](./image/1_4.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc)  
  Oscilloscope: Freq at ~50Hz
  ![Oscilloscope](./image/1_7.jpg)  
  - Using the servo.h library to controlled a servo motor  
@@ -63,7 +63,7 @@ servo1.attach(10); //Attach the servo input to pin 10 (PWM)
 servo1.write(0);   //ouputting 0 = max speed reverse, 90 = stop, 180 = max speed forward
 ```  
 
-[![servo Video](./image/1_6.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=1)  
+[![servo Video](./image/1_6.jpg)](https://www.youtube.com/watch?v=Fmpl8Q5mNHA)  
 Oscilloscope: Freq at ~50Hz
 ![Oscilloscope1](./image/1_8.JPG)  
 ![Oscilloscope2](./image/1_9.JPG)  
