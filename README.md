@@ -13,12 +13,13 @@
  - [Milestone 4](./docs/milestone4)  
 
 ### Contributors
- - JinJie Chen (jc2554@cornell.edu)
- - Kenneth Cesar Huaman (kch96@cornell.edu)
- - Khyati Sipani (ks965@cornell.edu)
- - Adrian Higgins Dohmann (ahd59@cornell.edu)
- - Amanda Pathmanathan (ap763@cornell.edu)
- - Sanush Nukshan Kehelella (snk32@cornell.edu)  
+ - JinJie Chen              [jc2554](mailto:jc2554@cornell.edu)
+ - Kenneth Cesar Huaman     [kch96](mailto:kch96@cornell.edu)
+ - Khyati Sipani            [ks965](mailto:ks965@cornell.edu)
+ - Adrian Higgins Dohmann   [ahd59](mailto:ahd59@cornell.edu)
+ - Amanda Pathmanathan      [ap763](mailto:ap763@cornell.edu)
+ - Sanush Nukshan Kehelella [snk32](mailto:snk32@cornell.edu)  
+
 
 ##### [Team Contract](https://docs.google.com/document/d/198_2G0pXLdzFmWx5OhAtgoEIT7_VQN-TdpwlbIea9Dk/edit?usp=sharing)
 ##### [Meeting Minutes](https://drive.google.com/drive/folders/0BylhGVebGgo6N3QtZWxnd2c1eFU?usp=sharing)
