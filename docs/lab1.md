@@ -5,13 +5,12 @@ Learn basic functionalities of the Arduino Uno and the Arduino IDE, and assembly
 
 ## Lab Procedure
 
- - Installed Arduino IDE 
-
+ - Installed Arduino IDE  
 [Download Link](https://www.arduino.cc/en/Main/Software)
 
- - Test example code "Blink"
- 
+ - Test example code "Blink"  
  The example can be found under: File > Examples > 1.Basics > Blink
- ![Code](./docs/1_1.jpg)
+
+![Code](./image/1_1.jpg)
  
  - 
