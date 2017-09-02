@@ -1,4 +1,4 @@
-## Team 7 ('17 Fall Lab Session: Monday Night)
+## Team 7 ('17 Fall Lab Session: Monday Night)  
 
 ### Lab
  - [Lab 1](./docs/lab1)
@@ -10,7 +10,7 @@
  - [Milestone 1](./docs/milestone1)
  - [Milestone 2](./docs/milestone2)
  - [Milestone 3](./docs/milestone3)
- - [Milestone 4](./docs/milestone4)
+ - [Milestone 4](./docs/milestone4)  
 
 ### Contributors
  - JinJie Chen (jc2554@cornell.edu)
@@ -18,6 +18,7 @@
  - Khyati Sipani (ks965@cornell.edu)
  - Adrian Higgins Dohmann (ahd59@cornell.edu)
  - Amanda Pathmanathan (ap763@cornell.edu)
- - Sanush Nukshan Kehelella (snk32@cornell.edu)
+ - Sanush Nukshan Kehelella (snk32@cornell.edu)  
 
-#### [Team Contract](https://docs.google.com/document/d/198_2G0pXLdzFmWx5OhAtgoEIT7_VQN-TdpwlbIea9Dk/edit?usp=sharing)
+##### [Team Contract](https://docs.google.com/document/d/198_2G0pXLdzFmWx5OhAtgoEIT7_VQN-TdpwlbIea9Dk/edit?usp=sharing)
+##### [Meeting Minutes](https://drive.google.com/drive/folders/0BylhGVebGgo6N3QtZWxnd2c1eFU?usp=sharing)
