@@ -41,7 +41,7 @@ void loop() {
 }
 ```
 
-[![External Blink Video](./docs/image/1_1.jpg)](https://www.youtube.com/watch?v=rXavyW0d1EY&index=6&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=4)  
+[![External Blink Video](./image/1_1.jpg)](https://www.youtube.com/watch?v=rXavyW0d1EY&index=6&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=4)  
  - Take potentiometer as the analog input and write analog output to an external LED.  
  
  ```C
@@ -51,9 +51,9 @@ void loop() {
   analogWrite(PINOUT,value>>2);//write value out to the LED
  ```  
  
- [![potentiometer Video](./docs/image/1_4.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=3)  
+ [![potentiometer Video](./image/1_4.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=3)  
  Oscilloscope: Freq at ~50Hz
- ![Oscilloscope](./docs/image/1_7.jpg)  
+ ![Oscilloscope](./image/1_7.jpg)  
  - Using the servo.h library to controlled a servo motor  
  
  ```C
@@ -63,14 +63,14 @@ servo1.attach(10); //Attach the servo input to pin 10 (PWM)
 servo1.write(0);   //ouputting 0 = max speed reverse, 90 = stop, 180 = max speed forward
 ```  
 
-[![servo Video](./docs/image/1_6.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=1)  
+[![servo Video](./image/1_6.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc&list=PLsmnUvbbrDnUrtgCasNMCRTeo7MZhXyRG&index=1)  
 Oscilloscope: Freq at ~50Hz
-![Oscilloscope1](./docs/image/1_8.jpg)  
-![Oscilloscope2](./docs/image/1_9.jpg)  
+![Oscilloscope1](./image/1_8.JPG)  
+![Oscilloscope2](./image/1_9.JPG)  
  - We assembled the robot with basic parts  
-![robot](./docs/image/1_10.jpg)  
+![robot](./image/1_10.JPG)  
  - Last, we made the robot to drive in a octagon, but the timing for the motor need to be tune more finely to make precise turns.  
-[![robot Video](./docs/image/1_11.jpg)](https://youtu.be/gRwe7V_8tsg)
+[![robot Video](./image/1_11.JPG)](https://youtu.be/gRwe7V_8tsg)
 
 ![robot](./docs/image/1_11.JPG)  
 ![robot](./image/1_11.JPG)  
