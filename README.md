@@ -1,7 +1,5 @@
 ## Team 7 (Lab Session: Monday Night)
 
-### [Team Contract](./teamcontract)
-
 ### Lab
  - [Lab 1](./docs/lab1)
  - [Lab 2](./docs/lab2)
