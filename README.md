@@ -1,4 +1,4 @@
-## Team 7 (Lab Session: Monday Night)
+## Team 7 ('17 Fall Lab Session: Monday Night)
 
 ### Lab
  - [Lab 1](./docs/lab1)
@@ -19,3 +19,5 @@
  - Adrian Higgins Dohmann (ahd59@cornell.edu)
  - Amanda Pathmanathan (ap763@cornell.edu)
  - Sanush Nukshan Kehelella (snk32@cornell.edu)
+
+#### [Team Contract](https://docs.google.com/document/d/198_2G0pXLdzFmWx5OhAtgoEIT7_VQN-TdpwlbIea9Dk/edit?usp=sharing)
