@@ -67,9 +67,21 @@ servo1.write(0);   //ouputting 0 = max speed reverse, 90 = stop, 180 = max speed
 Oscilloscope: Freq at ~50Hz
 ![Oscilloscope1](./image/1_8.JPG)  
 ![Oscilloscope2](./image/1_9.JPG)  
+
  - We assembled the robot with basic parts  
 ![robot](./image/1_10.JPG)  
  - Last, we made the robot to drive in a octagon, but the timing for the motor need to be tune more finely to make precise turns.  
+ 
+ ```C
+ void loop() {
+  servo1.write(0); //servo1 go forward
+  servo2.write(180); //servo2 go forward
+  delay(1000); //Go forard for 1 second
+  servo1.write(90); //servo1 stop
+  delay(500); //Turn for .5 second
+ }
+ ```
+ 
 [![robot Video](./image/1_11.JPG)](https://youtu.be/gRwe7V_8tsg)
 
 
