@@ -15,7 +15,6 @@ void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
 }
-
 // the loop function runs over and over again forever
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
@@ -65,4 +64,4 @@ Oscilloscope: Freq at ~50Hz
  - We assembled the robot with basic parts  
 ![robot](./docs/image/1_10.jpg)  
  - Last, we made the robot to drive in a octagon, but the timing for the motor need to be tune more finely to make precise turns.
- [![robot Video](./docs/image/1_11.jpg)](https://youtu.be/gRwe7V_8tsg)  
+ [![robot Video](image/1_11.jpg)](https://youtu.be/gRwe7V_8tsg)
