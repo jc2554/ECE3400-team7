@@ -56,7 +56,7 @@ void loop() {
  Serial.println(value);
 ```
 
- ![serial_output](./image/1_12.jpg)  
+ ![serial_output](./image/1_12.JPG)  
  
  - We mapped the value of the potentiometer to the analog output to an external LED.  
  
