@@ -3,12 +3,17 @@
 ## Goal
 Learn basic functionalities of the Arduino Uno and the Arduino IDE, and assembly a basic robot to perform a simple autonomous task.
 
+## Sub-team
+1. JinJie Chen; Amanda Pathmanathan
+2. Kenneth Cesar Huaman; Khyati Sipani; Adrian Higgins Dohmann  
+Sanush Nukshan Kehelella hasn't joined the team
+
 ## Lab Procedure
 
  - Installed Arduino IDE  
 [Download Link](https://www.arduino.cc/en/Main/Software)
 
- - Test example code "Blink"  
+ - We first tested the example code "Blink"  
  The example can be found under: File > Examples > 1.Basics > Blink  
  
 ```C
@@ -42,21 +47,32 @@ void loop() {
 ```
 
 [![External Blink Video](./image/1_1.jpg)](https://www.youtube.com/watch?v=rXavyW0d1EY)  
- - Take potentiometer as the analog input and write analog output to an external LED.  
+
+ - we displayed the value of a potentiometer via the serial port to the screen by adding the following code
  
- ```C
+```C
+ Serial.begin(9600);
+ value = analogRead(PIN_IN);
+ Serial.println(value);
+```
+
+ ![serial_output](./image/1_12.jpg)  
+ 
+ - We mapped the value of the potentiometer to the analog output to an external LED.  
+ 
+```C
   value = analogRead(PININ);//Reads an ADC conversion from pin A0 using default settings for the ADC.
   Serial.println(value);//print value to screen
   delay(100);//wait .1 sec
   analogWrite(PINOUT,value>>2);//write value out to the LED
- ```  
+```  
  
  [![potentiometer Video](./image/1_4.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc)  
  Oscilloscope: Freq at ~50Hz
  ![Oscilloscope](./image/1_7.jpg)  
- - Using the servo.h library to controlled a servo motor  
+ - We used the servo.h library to controlled a servo motor  
  
- ```C
+```C
  #include <Servo.h>  //import Library
 Servo servo1;      //Declare instance of servo
 servo1.attach(10); //Attach the servo input to pin 10 (PWM)
