@@ -6,7 +6,7 @@ Learn basic functionalities of the Arduino Uno and the Arduino IDE, and assembly
 ## Sub-team
 1. JinJie Chen; Amanda Pathmanathan
 2. Kenneth Cesar Huaman; Khyati Sipani; Adrian Higgins Dohmann  
-Sanush Nukshan Kehelella hasn't joined the team
+Sanush Nukshan Kehelella hadn't joined the team yet
 
 ## Lab Procedure
 
@@ -30,7 +30,7 @@ void loop() {
 }
 ```  
 [![Embedded Blink Video](./image/1_0.jpg)](https://www.youtube.com/watch?v=gp3k0bbmByw)  
- - The following code test blink function on an external LED  
+ - The following code tests blink function on an external LED:  
  
 ```C
 void setup() {
@@ -48,7 +48,7 @@ void loop() {
 
 [![External Blink Video](./image/1_1.jpg)](https://www.youtube.com/watch?v=rXavyW0d1EY)  
 
- - we displayed the value of a potentiometer via the serial port to the screen by adding the following code
+ - We displayed the value of a potentiometer via the serial port to the screen by adding the following code:
  
 ```C
  Serial.begin(9600);    //Sets the data rate in bits per second (baud) for serial data transmission.
@@ -58,7 +58,7 @@ void loop() {
 
  ![serial_output](./image/1_12.JPG)  
  
- - We mapped the value of the potentiometer to the analog output to an external LED.  
+ - We mapped the value of the potentiometer to the analog output of an external LED.  
  
 ```C
   value = analogRead(PININ);//Reads an ADC conversion from pin A0 using default settings for the ADC.
@@ -70,7 +70,7 @@ void loop() {
  [![potentiometer Video](./image/1_4.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc)  
  Oscilloscope: Freq at ~50Hz
  ![Oscilloscope](./image/1_7.jpg)  
- - We used the servo.h library to controlled a servo motor  
+ - We used the servo.h library to control a servo motor  
  
 ```C
  #include <Servo.h>  //import Library
@@ -86,7 +86,7 @@ Oscilloscope: Freq at ~50Hz
 
  - We assembled the robot with basic parts  
 ![robot](./image/1_10.JPG)  
- - Last, we made the robot to drive in a octagon, but the timing for the motor need to be tune more finely to make precise turns.  
+ - Lastly, we made the robot move in a octagon, but the timing for the motor still needs to be tuned more finely to make precise turns.  
  
  ```C
  void loop() {
