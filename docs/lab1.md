@@ -51,9 +51,9 @@ void loop() {
  - we displayed the value of a potentiometer via the serial port to the screen by adding the following code
  
 ```C
- Serial.begin(9600);
- value = analogRead(PIN_IN);
- Serial.println(value);
+ Serial.begin(9600);    //Sets the data rate in bits per second (baud) for serial data transmission.
+ value = analogRead(PIN_IN); //reading the value from the potentiometer
+ Serial.println(value); //Prints value to the serial port as human-readable ASCII text.
 ```
 
  ![serial_output](./image/1_12.JPG)  
