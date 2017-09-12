@@ -29,7 +29,7 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```  
-[![Embedded Blink Video](./image/1_0.jpg)](https://www.youtube.com/watch?v=gp3k0bbmByw)  
+[![Embedded Blink Video](./image/lab1/1_0.jpg)](https://www.youtube.com/watch?v=gp3k0bbmByw)  
  - The following code tests blink function on an external LED:  
  
 ```C
@@ -46,7 +46,7 @@ void loop() {
 }
 ```
 
-[![External Blink Video](./image/1_1.jpg)](https://www.youtube.com/watch?v=rXavyW0d1EY)  
+[![External Blink Video](./image/lab1/1_1.jpg)](https://www.youtube.com/watch?v=rXavyW0d1EY)  
 
  - We displayed the value of a potentiometer via the serial port to the screen by adding the following code:
  
@@ -56,7 +56,7 @@ void loop() {
  Serial.println(value); //Prints value to the serial port as human-readable ASCII text.
 ```
 
- ![serial_output](./image/1_12.JPG)  
+ ![serial_output](./image/lab1/1_12.JPG)  
  
  - We mapped the value of the potentiometer to the analog output of an external LED.  
  
@@ -67,9 +67,9 @@ void loop() {
   analogWrite(PINOUT,value>>2);//write value out to the LED
 ```  
  
- [![potentiometer Video](./image/1_4.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc)  
+ [![potentiometer Video](./image/lab1/1_4.jpg)](https://www.youtube.com/watch?v=vbGv5mdMXzc)  
  Oscilloscope: Freq at ~50Hz
- ![Oscilloscope](./image/1_7.jpg)  
+ ![Oscilloscope](./image/lab1/1_7.jpg)  
  - We used the servo.h library to control a servo motor  
  
 ```C
@@ -79,13 +79,13 @@ servo1.attach(10); //Attach the servo input to pin 10 (PWM)
 servo1.write(0);   //ouputting 0 = max speed reverse, 90 = stop, 180 = max speed forward
 ```  
 
-[![servo Video](./image/1_6.jpg)](https://www.youtube.com/watch?v=Fmpl8Q5mNHA)  
+[![servo Video](./image/lab1/1_6.jpg)](https://www.youtube.com/watch?v=Fmpl8Q5mNHA)  
 Oscilloscope: Freq at ~50Hz
-![Oscilloscope1](./image/1_8.JPG)  
-![Oscilloscope2](./image/1_9.JPG)  
+![Oscilloscope1](./image/lab1/1_8.JPG)  
+![Oscilloscope2](./image/lab1/1_9.JPG)  
 
  - We assembled the robot with basic parts  
-![robot](./image/1_10.jpg)  
+![robot](./image/lab1/1_10.jpg)  
  - Lastly, we made the robot move in a octagon, but the timing for the motor still needs to be tuned more finely to make precise turns.  
  
  ```C
@@ -98,7 +98,7 @@ Oscilloscope: Freq at ~50Hz
  }
  ```
  
-[![robot Video](./image/1_11.JPG)](https://youtu.be/gRwe7V_8tsg)
+[![robot Video](./image/lab1/1_11.JPG)](https://youtu.be/gRwe7V_8tsg)
 
 
 ### Useful Resource
