@@ -1,5 +1,3 @@
-theme: jekyll-theme-cayman
-title: hey???
 # Lab 2
 (VERY ROUGH ATTEMPT< FEEL FREE TO EDIT
 ## Goal
