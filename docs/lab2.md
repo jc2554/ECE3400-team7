@@ -17,6 +17,7 @@ To implement the filter
 
 
 ### Optical
-
+The FFT algorithm was used from ..........
+Using the FFT, the spectral decomposition of several treasure frequencies was recorded
 
 
