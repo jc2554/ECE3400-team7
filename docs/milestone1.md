@@ -33,6 +33,7 @@ if (middle sensor on black and left sensor on white and right sensor on white){ 
 By using three line following sensors, we are able to allow our robot not only to detect if it is at an angle, but also to detect if it is at a strong or slight angle. This allows the line following to respond significantly more robustly than similar layouts containing only two sensors.
 
 Putting this algorithm to the test, we found that the robot will successfully track a line even while being pushed slightly off course.
+
 [![](./image/milestone1/1_1.jpg)](https://youtu.be/nTEPqP1qgJY)
 
 ### Intersection Detection, Turning, and Figure 8
@@ -43,4 +44,5 @@ We connected two additional QRE113 IR line sensors to the robot in order to dete
 Our initial turning algorithm works by simply setting both wheels to spin in opposite directions then looping until the front middle sensor detects that it has arrived over a line again. At this point, the robot should have completed a 90 degree rotation in whichever direction it was set to spin and, even if it should be slightly off center on the line, capable of tracking the line again from this point.
 
 We then strung together a series of turning and following line until reaching an intersection commands necessary for the robot to perform a figure 8, which you can see here:
+
 [![](./image/milestone1/1_4.jpg)](https://youtu.be/NfCRnDHCJfM)
