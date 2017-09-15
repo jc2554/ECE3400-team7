@@ -1,20 +1,20 @@
 # Milestone 1
 
 ## Goal
-The goal of this milestone was to add line tracking and grid traversing functionality to our robot.
+The goal of this milestone was to add line tracking and grid traversing functionality to our robot, finally testing this by performing a figure 8.
 
 ## Lab Procedure
 ### Line Detection
- We first tested the functionality of the IR line sensors by reading their output while being held a few millimeters over black and white surfaces. Using the measured values, we determined reasonable threshold values for the Arduino to decide if a sensor is over a line.
+We first tested the functionality of the QRE113 IR line sensors by holding them a few millimeters over black and white surfaces and observing their output. Using our measurements, we determined reasonable threshold values to determine whether a sensor is over a line.
 
-We then attached 3 QRE113 analog IR line sensors to the front of our robot, spaced so that, when aligned straight over a line, only the center sensor would read the line, as shown here:
+We then attached 3 QRE113 IR line sensors to the front of our robot, spacing them so that only the center sensor would read a line when the robot is oriented perfectly straight. The other two sensors would read only when the robot has skewed in one direction. Their placement can be seen here:
 
 ![](./image/milestone1/1_2.jpg)
 
-With these sensors, our robot can detect whether it is over and whether it is skewed on a line.
+With these sensors, our robot can detect whether it is positioned straight or at an angle over a line.
 
 ### Line Following
-Our algorithm for following a line is fairly simple and works as follows:
+Our algorithm for following a line works as follows:
 ```C
 if (middle sensor on black and left sensor on white and right sensor on white){ //robot is going straight
   forward
@@ -30,7 +30,7 @@ if (middle sensor on black and left sensor on white and right sensor on white){ 
   forward //keep going, either way it's better than stopping
 }
 ```
-By using three line following sensors, we are able to allow our robot not only to detect if it is at an angle, but also to detect if it is at a strong or slight angle. This allows the line following to respond significantly more robustly than similar layouts containing only two sensors.
+Using the three line following sensors, our robot is not only able to detect if it is at an angle, but is also to detect whether it is at a strong or slight angle. This allows the robot to make adjustments of varying intensity depending on its situation. Because of this, the robot will not waste time by overadjusting to slight angles.
 
 Putting this algorithm to the test, we found that the robot will successfully track a line even while being pushed slightly off course.
 
@@ -41,8 +41,8 @@ We connected two additional QRE113 IR line sensors to the robot in order to dete
 
 ![](./image/milestone1/1_3.jpg)
 
-Our initial turning algorithm works by simply setting both wheels to spin in opposite directions then looping until the front middle sensor detects that it has arrived over a line again. At this point, the robot should have completed a 90 degree rotation in whichever direction it was set to spin and, even if it should be slightly off center on the line, capable of tracking the line again from this point.
+Our initial turning algorithm works by simply setting both wheels to spin in opposite directions and then waiting until the front middle sensor has arrived over a line again. At this point, the robot should have completed a 90 degree rotation in whichever direction it was set to spin and, even if it is slightly off center of the line, should be capable of tracking the line again from this point.
 
-We then strung together a series of turning and following line until reaching an intersection commands necessary for the robot to perform a figure 8, which you can see here:
+To test our line tracking and turning algorithms, we strung together an ordered series of "turn" and "following line until reaching an intersection" commands to perform a figure 8. Our robot's wonderful success can be seen chronicled in video below:
 
 [![](./image/milestone1/1_4.jpg)](https://youtu.be/NfCRnDHCJfM)
