@@ -1,5 +1,5 @@
 # Lab 2
-(VERY ROUGH ATTEMPT< FEEL FREE TO EDIT
+VERY ROUGH ATTEMPT--> FEEL FREE TO EDIT
 ## Goals:
 The goal of the Audio subteam was to build a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The microphone should be able to detect the starting signal despite excessive background noise (There is still an emergency start button just in case!)
 
