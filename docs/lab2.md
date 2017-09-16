@@ -16,7 +16,7 @@ The goal of the Optical subteam was to receive and categories IR signals of vary
 ### Audio
 We started off by soldering some pins to our microphone in order to place it on the breadboard. 
 
-![](./image/lab2/)       
+![](./image/lab2/IMG_1652.JPG)       
 
 ![](./image/lab2/)
 
