@@ -16,9 +16,9 @@ The goal of the Optical subteam was to receive and categories IR signals of vary
 ### Audio
 We started off by soldering some pins to our microphone in order to place it on the breadboard. 
 
-![](./image/lab2/ScreenShot2017-09-16at12.57.48PM.png)       
+![](./image/lab2/)       
 
-![](./image/lab2/ScreenShot2017-09-16at12.57.59PM.png)
+![](./image/lab2/)
 
 To test our microphone, we used the function generator and measured the signal produced on the oscilloscope. 
 Despite changing the gain on the microphone, we decided that an opamp would still be needed to amplify the signal. 
@@ -27,7 +27,7 @@ We are using the analogRead function over the ADC itself since:
 The ADC would be better for the other subteam since they need to detect signals of around 7-17kHZ!
 
 The code that was loaded onto the arduino:
-![](./image/lab2/ScreenShot2017-09-16at12.57.10PM.png)
+![](./image/lab2/)
 
 Our results from the serial monitor: 
 
