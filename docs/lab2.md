@@ -27,9 +27,10 @@ We are using the analogRead function over the ADC itself since:
 The ADC would be better for the Optical subteam since they need to detect signals of around 7-17kHZ!
 
 The code that was loaded onto the arduino:
-![](./image/lab2/)
+![](./image/lab2/image-7.png)
 
 Our results from the serial monitor: 
+![](./image/lab2//image-8.jpg)
 
 The maximum values kept appearing in two bins: the 1st and 20th! The 20th bin was what we were expecting, but the 1st bin response seems to be the result of DC. 
 
