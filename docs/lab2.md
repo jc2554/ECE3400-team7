@@ -16,7 +16,9 @@ The goal of the Optical subteam was to receive and categories IR signals of vary
 ### Audio
 We started off by soldering some pins to our microphone in order to place it on the breadboard. 
 
-![](./image/lab2/MIC1.jpg)                               ![](./image/lab2/MIC2.jpg)
+![](./image/lab2/Screen Shot 2017-09-16 at 12.57.48 PM.png)       
+
+![](./image/lab2/Screen Shot 2017-09-16 at 12.57.59 PM.png)
 
 To test our microphone, we used the function generator and measured the signal produced on the oscilloscope. 
 Despite changing the gain on the microphone, we decided that an opamp would still be needed to amplify the signal. 
