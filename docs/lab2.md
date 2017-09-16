@@ -18,13 +18,13 @@ We started off by soldering some pins to our microphone in order to place it on 
 
 ![](./image/lab2/IMG_1652.JPG)       
 
-![](./image/lab2/)
+![](./image/lab2/IMG_6890.JPG)
 
 To test our microphone, we used the function generator and measured the signal produced on the oscilloscope. 
 Despite changing the gain on the microphone, we decided that an opamp would still be needed to amplify the signal. 
 We are using the analogRead function over the ADC itself since:
-1/.0001= 10000Hz which is sufficient to read a signal at 660Hz (max would be 2660!)
-The ADC would be better for the other subteam since they need to detect signals of around 7-17kHZ!
+1/.0001= 10000Hz which is sufficient to read a signal at 660Hz (maximum would be 2x660!)
+The ADC would be better for the Optical subteam since they need to detect signals of around 7-17kHZ!
 
 The code that was loaded onto the arduino:
 ![](./image/lab2/)
@@ -35,7 +35,7 @@ The maximum values kept appearing in two bins: the 1st and 20th! The 20th bin wa
 
 
 We have also tried assembling the circuit for a non-inverting opamp, here is how far we got during lab:
-
+![](./image/lab2/IMG_0959.JPG)
 
 
 ### Optical
