@@ -3,7 +3,7 @@
 ## Goals:
 The goal of the Audio subteam was to build a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The microphone should be able to detect the starting signal despite excessive background noise (There is still an emergency start button just in case!)
 
-The goal of the Optical subteam was to receive and categories IR signals of varying frequencies from a treasure circuit. What factors go into locating the treasure during actual operation should be considered.
+The goal of the Optical subteam was to receive and categorize IR signals of varying frequencies from a treasure circuit. What factors go into locating the treasure during actual operation should be considered.
 
 ## Sub- teams:
 ### Optical 
@@ -35,14 +35,13 @@ The code that was loaded onto the arduino:
 Our results from the serial monitor: 
 ![](./image/lab2/image-8.jpg)
 
-Results on the oscilloscope:
-![](./image/lab2/IMG_9755.JPG)
-
 The maximum values kept appearing in two bins: the 1st and 20th! The 20th bin was what we were expecting, but the 1st bin response seems to be the result of DC. 
 
-
-We have also tried assembling the circuit for a non-inverting opamp, here is how far we got during lab:
+Although it is not required for lab 2, we also tried assembling the circuit for a non-inverting opamp, here is how far we got during lab:
 ![](./image/lab2/IMG_0959.JPG)
+
+Results on the oscilloscope:
+![](./image/lab2/IMG_9755.JPG)
 
 
 ### Optical
