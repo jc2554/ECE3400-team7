@@ -26,11 +26,17 @@ We are using the analogRead function over the ADC itself since:
 1/.0001= 10000Hz which is sufficient to read a signal at 660Hz (maximum would be 2x660!)
 The ADC would be better for the Optical subteam since they need to detect signals of around 7-17kHZ!
 
+The circuit and connection to A0 port of the arduino:
+![](./image/lab2/IMG_5680.JPG)
+
 The code that was loaded onto the arduino:
 ![](./image/lab2/image-7.png)
 
 Our results from the serial monitor: 
-![](./image/lab2//image-8.jpg)
+![](./image/lab2/image-8.jpg)
+
+Results on the oscilloscope:
+![](./image/lab2/IMG_9755.JPG)
 
 The maximum values kept appearing in two bins: the 1st and 20th! The 20th bin was what we were expecting, but the 1st bin response seems to be the result of DC. 
 
