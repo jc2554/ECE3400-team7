@@ -1,7 +1,9 @@
 # Lab 2
 (VERY ROUGH ATTEMPT< FEEL FREE TO EDIT
 ## Goal
-To implement the filter
+Audio-
+
+The goal of the Optical subteam was to receive and categories IR signals of varying frequencies from a treasure circuit. What factors go into locating the treasure during actual operation should be considered.
 
 ## Sub- team
 1. JinJie Chen; Kenneth Huaman; Adrian Higgins Dohmann
