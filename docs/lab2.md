@@ -20,8 +20,9 @@ To implement the filter
 The treasure circuit, once given a battery and turned on, had settings to optimize frequency and intensity of the IR light.
 The FFT algorithm was used from ..........
 Using the FFT, the spectral decomposition of several treasure frequencies was recorded
-The lab handout detailed the photoresistor be connected as such:
-![](./image/lab2/photocircuit.png)![](./image/lab2/orig.jpg)
+The lab handout detailed the photoresistor be connected as the left diagram below, but in accordance with the advice of the TA and team alpha, it was changed to the diagram below right.
+
+![](./image/lab2/orig.jpg)![](./image/lab2/photocircuit.png)
 
 ![](./image/lab2/2_1mod.jpg)
 
