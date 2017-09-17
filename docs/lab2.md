@@ -33,8 +33,11 @@ The function generator was connected to A0 with a 300 ohm resistor in series. He
 The code that was loaded onto the arduino:
 ![](./image/lab2/image-7.png)
 
-Our results from the serial monitor: 
+Our results from the serial monitor for the microphone signal: 
 ![](./image/lab2/image-8.jpg)
+
+Our results from the serial monitor for the function generator: 
+![](./image/lab2/microphone.png)
 
 The maximum values kept appearing in two bins: the 1st and 20th! The 20th bin was what we were expecting, but the 1st bin response seems to be the result of DC. When forming the code for detecting the start signal later on, we can ignore the value in the first bin if it the peak keeps on appearing.
 
