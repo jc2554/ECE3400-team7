@@ -1,5 +1,5 @@
 # Lab 2
-VERY ROUGH ATTEMPT--> FEEL FREE TO EDIT
+
 ## Goals:
 The goal of the Audio subteam was to build a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The microphone should be able to detect the starting signal despite excessive background noise (There will be an emergency start button just in case!)
 
@@ -37,7 +37,7 @@ Our results from the serial monitor for the function generator:
 ![](./image/lab2/microphone.png)
 
 Our results from the serial monitor for the microphone signal: 
-![](./image/lab2/image-8.jpg)
+![](./image/lab2/functiongenerator.png)
 
 The maximum values kept appearing in two bins: the 1st and 20th! The spike in the 20th bin is expected. When forming the code for detecting the start signal later on, we can ignore the value in the first bin if it the peak keeps on appearing.
 
