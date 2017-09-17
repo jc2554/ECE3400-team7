@@ -31,14 +31,15 @@ To test our code first, we used the function generator to generate a 660 Hz sign
 Our results from the serial monitor for the function generator: 
 ![](./image/lab2/microphone.png)
 
-The peak values kept appearing in three bins: the 1st, 2nd and 20th! Since our sampling frequency was 8930 Hz, and we took 256 samples, each bin would be 8930/256 = 34.9 Hz wide. Hence the 20th bin would have range 663 - 698 Hz, and it makes sense to see a peak in the 20th bin. However, we were unable to understand the peaks in the first and second bin. 
+The peak values kept appearing in both the 1st and 20th! Since our sampling frequency was 8930 Hz, and we took 256 samples, each bin would be 8930/256 = 34.9 Hz wide. Hence the 20th bin would have range 663 - 698 Hz, and it makes sense to see a peak in the 20th bin. However, we were unable to understand the peak in the first bin. The value for the second bin also seemed really high.
 
 We then generated a 660 Hz tone using an [online tone generator](http://www.szynalski.com/tone-generator/). After connecting the circuit to the microphone instead of the function generator, we again saw a spike in the 1st, 2nd, and 20th bin: 
 
 Our results from the serial monitor for the microphone signal: 
 ![](./image/lab2/functiongenerator.png)
 
-The peak in the 20th bin means our FFT code is working. But the pin in the 1st and 2nd bins are still there - it probably has something to do with the circuit or breadboard. When forming the code for detecting the start signal later on, we can ignore the value in the first two bins if the peaks keeps on appearing.
+
+The peak in the 20th bin means our FFT code is working. But we have peaks in the 1st and 2nd bins as well - it probably has something to do with the circuit or breadboard. When forming the code for detecting the start signal later on, we can ignore the value in the first two bins if the peaks keeps on appearing.
 
 We also tried assembling the circuit for a non-inverting opamp since the signal may not be as clear during the actual competition. We didn't need one for the lab as we were able to detect peaks. Here is how far we got during lab:
 
