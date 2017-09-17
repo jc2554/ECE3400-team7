@@ -20,18 +20,13 @@ We started off by soldering some pins to our microphone in order to place it on 
 
 ![](./image/lab2/IMG_6890.JPG)
 
-To test our microphone, we used the function generator to generate a 660 Hz signal (the one that we would be detecting) and measured it on the oscilloscope.
+From our Prelab, we discovered that AnalogRead would be sufficient for sampling a 660 Hz signal. From [Show Info](https://playground.arduino.cc/Main/ShowInfo), we figured that AnalogRead takes 111.987 microseconds, giving a sampling frequency of 1/.000111987 = ~8930Hz. This would be sufficient to read a signal at 660Hz (since our sampling frequency needs to be at least 2x660!) The ADC would be better for the Optical subteam since they need to detect signals of around 7-17kHZ!
 
-//Despite changing the gain on the microphone, we decided that an opamp would still be needed to amplify the signal. 
-
-We decided to use the analogRead function over the ADC itself since the Analog Read function take 100 microseconds, and hence has a samping frequency of 1/.0001= 10000Hz. This would be sufficient to read a signal at 660Hz (since our sampling frequency needs to be at least 2x660!)
-The ADC would be better for the Optical subteam since they need to detect signals of around 7-17kHZ!
-
-The function generator was connected to A0 with a 300 ohm resistor in series. Here is a picture of our circuit:
-![](./image/lab2/IMG_5680.JPG)
-
-The code that was loaded onto the arduino:
+We wrote our FFT code using AnalogRead() as below: 
 ![](./image/lab2/image-7.png)
+
+To test our code first, we used the function generator to generate a 660 Hz signal (the one that we would be detecting) instead of the online tone generator The function generator was connected to A0 with a 300 ohm resistor in series. Here is a picture of our circuit:
+![](./image/lab2/IMG_5680.JPG)
 
 Our results from the serial monitor for the function generator: 
 ![](./image/lab2/microphone.png)
