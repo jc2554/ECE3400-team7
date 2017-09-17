@@ -20,15 +20,14 @@ We started off by soldering some pins to our microphone in order to place it on 
 
 ![](./image/lab2/IMG_6890.JPG)
 
-To test our microphone, we used the function generator and measured the signal produced on the oscilloscope.
+To test our microphone, we used the function generator to generate a 660 Hz signal (the one that we would be detecting) and measured it on the oscilloscope.
 
-Despite changing the gain on the microphone, we decided that an opamp would still be needed to amplify the signal. 
+//Despite changing the gain on the microphone, we decided that an opamp would still be needed to amplify the signal. 
 
-We are using the analogRead function over the ADC itself since:
-1/.0001= 10000Hz which is sufficient to read a signal at 660Hz (maximum would be 2x660!)
+We decided to use the analogRead function over the ADC itself since the Analog Read function take 100 microseconds, and hence has a samping frequency of 1/.0001= 10000Hz. This would be sufficient to read a signal at 660Hz (since our sampling frequency needs to be at least 2x660!)
 The ADC would be better for the Optical subteam since they need to detect signals of around 7-17kHZ!
 
-The circuit and connection to A0 port of the arduino:
+The function generator was connected to A0 with a 300 ohm resistor in series. Here is a picture of our circuit:
 ![](./image/lab2/IMG_5680.JPG)
 
 The code that was loaded onto the arduino:
@@ -37,7 +36,7 @@ The code that was loaded onto the arduino:
 Our results from the serial monitor: 
 ![](./image/lab2/image-8.jpg)
 
-The maximum values kept appearing in two bins: the 1st and 20th! The 20th bin was what we were expecting, but the 1st bin response seems to be the result of DC. 
+The maximum values kept appearing in two bins: the 1st and 20th! The 20th bin was what we were expecting, but the 1st bin response seems to be the result of DC. When forming the code for detecting the start signal later on, we can ignore the value in the first bin if it the peak keeps on appearing.
 
 Although it is not required for lab 2, we also tried assembling the circuit for a non-inverting opamp, here is how far we got during lab:
 
