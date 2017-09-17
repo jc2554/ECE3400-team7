@@ -45,10 +45,6 @@ We also tried assembling the circuit for a non-inverting opamp since the signal 
 
 ![](./image/lab2/IMG_0959.JPG)
 
-Results on the oscilloscope:
-![](./image/lab2/IMG_9755.JPG)
-
-
 ### Optical
 The treasure circuit, once given a battery and turned on, had settings to optimize frequency and intensity of the IR light.
 Using the FFT, the spectral decomposition of several treasure frequencies was recorded
