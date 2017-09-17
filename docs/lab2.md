@@ -52,7 +52,7 @@ The lab handout detailed the photoresistor be connected as the left diagram belo
 
 ![](./image/lab2/orig.jpg)                  ![](./image/lab2/photocircuit.png)
 
-The full circuit including the connection to the Analog-0 port of the Arduino can be seen below.
+As specified with the audio subteam, the ADC is necessary over the analogread() function for the Arduino, since the nyquist frequency requires that a sampling of at least 34kHz(twice the highest 17kHz led frequency) be used, when the maximum sampling from the analogRead() is roughly 9kHz. The full circuit including the connection to the Analog-0 port of the Arduino can be seen below.
 
 ![](./image/lab2/2_1mod.jpg)
 
