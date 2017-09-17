@@ -39,7 +39,7 @@ Putting this algorithm to the test, we found that the robot will successfully tr
 ### Intersection Detection, Turning, and Figure 8
 We connected two additional QRE113 IR line sensors to the robot in order to detect when the robot has entered an intersection. The sensors are placed approximately an inch apart in line with the axis of the wheel, such that both sensors will read the line only when the wheels are over an intersection. Their placement can be seen here:
 
-![](./image/milestone1/1_3.jpg)\
+![](./image/milestone1/1_3.jpg)
 
 When both of the two rear line sensors read a black line, we know that the robot has entered an intersection and is positioned directly over the center. At this point, the robot can stop and do whatever it needs to (detect treasure, determine next movement, turn, etc.) before exiting the intersection again. For the sake of convenience, we created a methods "follow line until reaching an intersection" which will follow a line until detecting an intersection, at which point it stops.
 
