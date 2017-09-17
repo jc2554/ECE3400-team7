@@ -48,6 +48,7 @@ We also tried assembling the circuit for a non-inverting opamp since the signal 
 We built a simple RC low pass filter with a break frequency of about 700Hz, to filter out some of the high frequency noise from the microphone signal. We chose a low pass filter because most of the noise in our signal seemed to be at higher frequencies. The values of R and C for the filter was calculated using the following formula, where f is the break frequency:
  
 ![](./image/lab2/formula1.png)
+
 The following set up was used:
 
 ![](./image/lab2/diagram1.png)
