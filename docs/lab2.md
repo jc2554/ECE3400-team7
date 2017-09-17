@@ -56,6 +56,10 @@ As specified with the audio subteam, the ADC is necessary over the analogread() 
 
 ![](./image/lab2/2_1mod.jpg)
 
+The fft library from openmusiclabs provides the following fft algorithm which makes use of the adc as opposed to an analogread().
+
+![]z(./image/lab2/base.png)
+
 To set up a test of the circuit, the oscilloscope was used to measure the output of the photoresistor when the treasure sensor was 3cm away. The treasure sensor was calibrated to roughly 7kHz by directly connecting to the oscilloscope prior and the intensity was turned up to half. The output from the oscilloscope when connected to the photoresistor picked up 7.123kHz.
 
 ![](./image/lab2/2_2mod.jpg)
@@ -69,3 +73,5 @@ Given the list of possible frequencies for the treasure, the corresponding FFTs 
 All spectra had a strong DC component along with significant low frequency contribution. Sunlight is most likely the cause of the DC component, while fluorescent light flickers at 120 Hz, since the mains hum(from the AC electrical system) is at 60 Hz and the light would hum at twice that frequency. A high pass filter would help ignore these components. The tentative design is: 
 
 ![](./image/lab2/filter.png)
+
+The biggest source for concern is that this algorithm takes up 16% of program storage space and 66% of dynamic memory, which would, for future addtions, interfere with space allocation for other subsystems of the robot.
