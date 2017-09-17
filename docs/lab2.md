@@ -47,15 +47,18 @@ We also tried assembling the circuit for a non-inverting opamp since the signal 
 
 We built a simple RC low pass filter with a break frequency of about 700Hz, to filter out some of the high frequency noise from the microphone signal. We chose a low pass filter because most of the noise in our signal seemed to be at higher frequencies. The values of R and C for the filter was calculated using the following formula, where f is the break frequency:
  
+![](./image/lab2/formula1.png)
 The following set up was used:
 
-
+![](./image/lab2/diagram1.png)
 
 We then tested the circuit, and we observed signal attenuation beyond around 720Hz.
 We wanted to then amplify the filtered signal, before the signal was processed by the Arduino. We set up the LM358 dual op-amp in an inverting configuration with a gain of 4. Since we didn’t have a negative supply, we needed a DC offset of about 2.5V for the signal to not clip. We first tested the op amp in isolation providing a DC offset using the power supply. It worked as expected, with a gain close to 4 and with inversion. 
 The inverting configuration:
 
+![](./image/lab2/diagram2.png)
 
+![](./image/lab2/formula2.png)
 
 
 However, we were not able to get the op amp working with the filter yet, because the filter disrupted the DC offsetting of the op amp. We needed to AC couple the filtered signal, using an appropriate capacitor in series with the signal path. We tried various capacitors, but it hasn’t worked yet. More work will be done to get the two circuits working together. We might also switch to a band pass sallen-key filter in future if the need arises. 
