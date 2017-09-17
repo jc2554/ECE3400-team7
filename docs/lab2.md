@@ -58,7 +58,7 @@ As specified with the audio subteam, the ADC is necessary over the analogread() 
 
 The fft library from openmusiclabs provides the following fft algorithm which makes use of the adc as opposed to an analogread().
 
-![](./image/lab2/base.png)
+![](./image/lab2/basic.png)
 
 To set up a test of the circuit, the oscilloscope was used to measure the output of the photoresistor when the treasure sensor was 3cm away. The treasure sensor was calibrated to roughly 7kHz by directly connecting to the oscilloscope prior and the intensity was turned up to half. The output from the oscilloscope when connected to the photoresistor picked up 7.123kHz.
 
