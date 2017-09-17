@@ -39,7 +39,7 @@ Our results from the serial monitor for the function generator:
 Our results from the serial monitor for the microphone signal: 
 ![](./image/lab2/image-8.jpg)
 
-The maximum values kept appearing in two bins: the 1st and 20th! The 20th bin was what we were expecting, but the 1st bin response seems to be the result of DC. When forming the code for detecting the start signal later on, we can ignore the value in the first bin if it the peak keeps on appearing.
+The maximum values kept appearing in two bins: the 1st and 20th! The spike in the 20th bin is expected. When forming the code for detecting the start signal later on, we can ignore the value in the first bin if it the peak keeps on appearing.
 
 Although it is not required for lab 2, we also tried assembling the circuit for a non-inverting opamp, here is how far we got during lab:
 
