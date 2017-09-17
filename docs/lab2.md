@@ -1,7 +1,7 @@
 # Lab 2
 VERY ROUGH ATTEMPT--> FEEL FREE TO EDIT
 ## Goals:
-The goal of the Audio subteam was to build a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The microphone should be able to detect the starting signal despite excessive background noise (There is still an emergency start button just in case!)
+The goal of the Audio subteam was to build a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The microphone should be able to detect the starting signal despite excessive background noise (There will be an emergency start button just in case!)
 
 The goal of the Optical subteam was to receive and categorize IR signals of varying frequencies from a treasure circuit. What factors go into locating the treasure during actual operation should be considered.
 
@@ -33,11 +33,11 @@ The function generator was connected to A0 with a 300 ohm resistor in series. He
 The code that was loaded onto the arduino:
 ![](./image/lab2/image-7.png)
 
-Our results from the serial monitor for the microphone signal: 
-![](./image/lab2/image-8.jpg)
-
 Our results from the serial monitor for the function generator: 
 ![](./image/lab2/microphone.png)
+
+Our results from the serial monitor for the microphone signal: 
+![](./image/lab2/image-8.jpg)
 
 The maximum values kept appearing in two bins: the 1st and 20th! The 20th bin was what we were expecting, but the 1st bin response seems to be the result of DC. When forming the code for detecting the start signal later on, we can ignore the value in the first bin if it the peak keeps on appearing.
 
