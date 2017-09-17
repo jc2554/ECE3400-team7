@@ -60,7 +60,10 @@ To set up a test of the circuit, the oscilloscope was used to measure the output
 
 ![](./image/lab2/2_2mod.jpg)
 
-The magnitude of the received signal dies off with distance. For future tests, an active filter will most likely be necessary to amplify a certain range or ranges of frequency, especially considering the variablility of the intensity and the ambient noise contributions that would otherwise mask. The fft_adc_serial.pde example code from the openmusiclabs fft library was used as a base, and then modified slighly to print out the dominant components(by log-scale) of the decomposed signal. Given the list of possible frequencies for the treasure, the corresponding FFTs of the received signal were captured and superimposed as seen below, where each bin is roughly 150Hz apart.
+The magnitude of the received signal dies off with distance(since magnitude here is intensity, it is an inverse quadratic relation). For future tests, an active filter will most likely be necessary to amplify a certain range or ranges of frequency, especially considering the variablility of the intensity and the ambient noise contributions that would otherwise mask. The fft_adc_serial.pde example code from the openmusiclabs fft library was used as a base, and then modified slighly to print out the dominant components(by log-scale) of the decomposed signal. A sample of the modified portion can be seen below: 
+![](./image/lab2/codesnip.png)
+
+Given the list of possible frequencies for the treasure, the corresponding FFTs of the received signal were captured and superimposed as seen below, where each bin is roughly 150Hz apart.
 ![](./image/lab2/treas.jpg)
 
 All spectra had a strong DC component along with significant low frequency contribution. Sunlight is most likely the cause of the DC component, while fluorescent light flickers at 120 Hz, since the mains hum(from the AC electrical system) is at 60 Hz and the light would hum at twice that frequency. A high pass filter would help ignore these components. The tentative design is: 
