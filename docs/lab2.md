@@ -63,6 +63,6 @@ To set up a test of the circuit, the oscilloscope was used to measure the output
 The magnitude of the received signal dies off with distance. For future tests, an active filter will most likely be necessary to amplify a certain range or ranges of frequency, especially considering the variablility of the intensity and the ambient noise contributions that would otherwise mask. Given the list of possible frequencies for the treasure, the corresponding FFTs of the received signal were captured and superimposed as seen below, where each bin is roughly 150Hz apart.
 ![](./image/lab2/treas.jpg)
 
-All spectra had a strong DC component along with significant low frequency contribution. Fluorescent light flickers at 120 Hz, since the mains hum(from the AC electrical system) is at 60 Hz and the light would hum at twice that frequency. A high pass filter would help ignore these components. The tentative design is: 
+All spectra had a strong DC component along with significant low frequency contribution. Sunlight is most likely the cause of the DC component, while fluorescent light flickers at 120 Hz, since the mains hum(from the AC electrical system) is at 60 Hz and the light would hum at twice that frequency. A high pass filter would help ignore these components. The tentative design is: 
 
 ![](./image/lab2/filter.png)
