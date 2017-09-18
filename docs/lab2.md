@@ -27,7 +27,11 @@ We wrote our FFT code using AnalogRead() as below:
 
 The FFT (fast fourier transform) does is compute the discrete fourier transform of a signal. We are taking a signal from the time domain and converting it into its equivalent in the frequency domain. This is important because we need our microphone to be able to detect a signal and then have the robot respond to that signal. 
 
+In order to convert the fourier transform from time to frequency domain we calculate this sum:
+![](./image/lab2/)
 
+In order to convert the fourier transform from frequency to time domain we calculate this sum:
+![](./image/lab2/)
 
 To test our code first, we used the function generator to generate a 660 Hz signal (the one that we would be detecting) instead of the online tone generator The function generator was connected to A0 with a 300 ohm resistor in series. Here is a picture of our circuit:
 ![](./image/lab2/IMG_5680.JPG)
