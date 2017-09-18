@@ -41,11 +41,7 @@ Our results from the serial monitor for the microphone signal:
 
 The peak in the 20th bin means our FFT code is working. But we have peaks in the 1st and 2nd bins as well - it probably has something to do with the circuit or breadboard. When forming the code for detecting the start signal later on, we can ignore the value in the first two bins if the peaks keeps on appearing.
 
-We also tried assembling the circuit for a non-inverting opamp since the signal may not be as clear during the actual competition. We didn't need one for the lab as we were able to detect peaks. Here is how far we got during lab:
-
-![](./image/lab2/IMG_0959.JPG)
-
-We built a simple RC low pass filter with a break frequency of about 700Hz, to filter out some of the high frequency noise from the microphone signal. We chose a low pass filter because most of the noise in our signal seemed to be at higher frequencies. The values of R and C for the filter was calculated using the following formula, where f is the break frequency:
+To make improvements to the results of the FFT, we built a simple RC low pass filter with a break frequency of about 700Hz, to filter out some of the high frequency noise from the microphone signal. We chose a low pass filter because most of the noise in our signal seemed to be at higher frequencies. The values of R and C for the filter was calculated using the following formula, where f is the break frequency:
  
 ![](./image/lab2/formula1.png)
 
@@ -60,6 +56,10 @@ The inverting configuration:
 ![](./image/lab2/diagram2.png)
 
 ![](./image/lab2/formula2.png)
+
+The circuit assembled on a breadboard:
+
+![](./image/lab2/IMG_0959.JPG)
 
 
 However, we were not able to get the op amp working with the filter yet, because the filter disrupted the DC offsetting of the op amp. We needed to AC couple the filtered signal, using an appropriate capacitor in series with the signal path. We tried various capacitors, but it hasn’t worked yet. More work will be done to get the two circuits working together. We might also switch to a band pass sallen-key filter in future if the need arises. 
