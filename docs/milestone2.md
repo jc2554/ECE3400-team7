@@ -24,4 +24,4 @@ We used [distance sensors](https://www.sparkfun.com/products/12728) to help dete
 We set up three different colored LEDS - red, white, and blue - to correspond to the different wall sensors we had mounted. The LED would go high if it detected a wall, and low if it did not. Below is the code we programmed our Arduino with:
 
 
-[![Wall Detection](./image/milestone2/Wall Detection.png)](https://www.youtube.com/watch?v=Rh2Dz9lLEa0&feature=youtu.be)
+[![Wall Detection](./image/milestone2/WallDetection.png)](https://www.youtube.com/watch?v=Rh2Dz9lLEa0&feature=youtu.be)
