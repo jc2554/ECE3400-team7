@@ -1,5 +1,6 @@
 ## Milestone 2
-
+### Goal
+The purpose of this milestone was to utilize the photoresistor circuit to detect three distinct frequencies of IR LED pulses and to calibrate the IR sensor to perform wall detection.
 ### Lab Procedure
 
 #### Treasure Detetction
