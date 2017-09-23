@@ -16,3 +16,4 @@ The demonstration of the capabilities of the Treasure Detection subsystem can be
 As opposed to the test during lab 2, the treasure was held at a distance of 8 cm, which seems to be around the maximum range of detection.
 
 #### Wall Detection
+For wall detection, we mounted [distance sensors](https://www.sparkfun.com/products/12728) to the front, left, and right side of our robot. See below:
