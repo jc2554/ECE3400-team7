@@ -26,6 +26,6 @@ We set up three different colored LEDS - red, white, and blue - to correspond to
 ![](./image/milestone2/Code_resized.png)
 
 Here is a video of the robot with all the LEDs integrated, detecting walls:
-[![Wall Detection](./image/milestone2/rsz_WallDetection.png)](https://www.youtube.com/watch?v=Rh2Dz9lLEa0&feature=youtu.be)
+[![Wall Detection](./image/milestone2/rsz_walldetection.png)](https://www.youtube.com/watch?v=Rh2Dz9lLEa0&feature=youtu.be)
 
 With all these additional wires, we figured our robot needs a rewiring job! We plan to work on this next week.
