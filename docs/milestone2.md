@@ -19,7 +19,7 @@ As opposed to the test during lab 2, the treasure was held at a distance of 8 cm
 
 We used [distance sensors](https://www.sparkfun.com/products/12728) to help detect walls. We first tested the distance sensors using our Arduino to figure out how they work and test whether they were functioning correctly. Then we mounted them to the front, left, and right side of our robot. The image below shows how we mounted the left wall sensor:
 
-![](./image/milestone2/IMG_3614.JPG)
+![](./image/milestone2/IMG_3614.jpg)
 
 We set up three different colored LEDS - red, white, and blue - to correspond to the different wall sensors we had mounted. The LED would go high if it detected a wall, and low if it did not. Below is the code we programmed our Arduino with:
 
