@@ -7,7 +7,8 @@ The purpose of this milestone was to utilize the photoresistor circuit to detect
 To accomplish to goal of identifying different frequencies, it was decided that a visual cue in the form of an LED would work nicely. The code from lab2 was modified slightly to drive the following cicuit.
 
 ![](./image/milestone2/modcir.png)
+The demonstration of the capabilities of the Treasure Detection subsystem can be seen below
 [![treasure detection video](./image/milestone2/2_1.JPG)](https://youtu.be/9iJFbW3Qb2s)
-
+As opposed to the test during lab 2, the treasure was held at a distance of 8 cm.
 
 #### Wall Detection
