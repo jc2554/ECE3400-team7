@@ -23,9 +23,9 @@ We used [distance sensors](https://www.sparkfun.com/products/12728) to help dete
 
 We set up three different colored LEDS - red, white, and blue - to correspond to the different wall sensors we had mounted. We measured a point from the center of a square on the grid to a black line, which was 7.5 cm. Then, we determined a threshold of 200 for wall detection by measuring the value read by the wall sensor if the wall was 7.5 cm away from the robot.  The LED would go high if it detected a wall (i.e the wall sensor value was above 200), and low if it did not. Below is the code we programmed our Arduino with:
 
-![](./image/milestone2/Code.png)
+![](./image/milestone2/Code_resized.png)
 
 Here is a video of the robot with all the LEDs integrated, detecting walls:
-[![Wall Detection](./image/milestone2/WallDetection.png)](https://www.youtube.com/watch?v=Rh2Dz9lLEa0&feature=youtu.be)
+[![Wall Detection](./image/milestone2/rsz_WallDetection.png)](https://www.youtube.com/watch?v=Rh2Dz9lLEa0&feature=youtu.be)
 
 With all these additional wires, we figured our robot needs a rewiring job! We plan to work on this next week.
