@@ -4,11 +4,12 @@ The purpose of this milestone was to utilize the photoresistor circuit to detect
 ### Lab Procedure
 
 #### Treasure Detetection
-To accomplish to goal of identifying different frequencies, it was decided that a visual cue in the form of an LED would work nicely. The code from lab2 was modified slightly to drive the following cicuit.
+To accomplish the goal of identifying different frequencies, it was decided that a visual cue in the form of an LED would work nicely. The code from Lab 2 was modified slightly to drive the following cicuit.
 
 ![](./image/milestone2/modcir.png)
 
 The basic algorithm was kept from open music labs, but the number of bins was reduced to save on data usage.
+
 ![](./image/milestone2/fftnew.png)
 
 The demonstration of the capabilities of the Treasure Detection subsystem can be seen in the following video.
