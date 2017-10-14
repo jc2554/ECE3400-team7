@@ -31,7 +31,9 @@ wire highlighted_y;
 ```
 
 Next, we use a simple state machine that will iterating through the 4 grid cell and set the button input to the corresponding grid cells.
+
 ![](./image/lab3/Button_Grid.JPG)
+
 Here is the code for the state machine:
 
 ```Verilog
@@ -104,9 +106,9 @@ always @ (*) begin
 end
 ```
 
-Here is a video of the grid display:
-[![grid video](./image/lab3/grid.JPG)](https://youtu.be/Z5URB4X2w9Q)  
+Here is a video of the grid display:  
 
+[![grid video](./image/lab3/grid.JPG)](https://youtu.be/Z5URB4X2w9Q)  
 
 Next, we want to build a basic base station that have external input to the arduino board and the arduino with communicate with the FPGA using the digital ports on both of these devices. An important note is that the arduino output 5V and the FPGA operate at 3.3V, so we build a voltage divider to adjust the voltage from the arduino to the FPGA.  
 We use two external push button as trigger of the message to be transfer from the arduino to the FPGA. Here is the code snippet for the arduino:  
@@ -127,7 +129,8 @@ assign highlighted_y= GPIO_0_D[29];
 assign highlighted_x= GPIO_0_D[31];
 ```
 
-Here is a video of the simple base state:
+Here is a video of the simple base state:  
+
 [![button grid video](./image/lab3/FPGA_base.JPG)](https://youtu.be/TJx6PqLpqdA)  
 
 **The VGA cable connecting to the monitor only has one wire for red, one wire for green, and one wire for blue. These are analog cables (they take values from 0 to 1 V). We have provided a Digital-to-Analog-Converter (DAC) that converts the 8 given color bits (with a 3.3V digital output from the FPGA) to the desired three color 1V analog signals. Given that the VGA display has an internal resistance of 50 Ohms, you must list the resistor values in your lab report and explain how they were chosen.
@@ -149,6 +152,7 @@ Here is the schematic with nodes label:
 ![DAC schematic2](./image/lab3/DAC_schematic2.JPG)  
 
 By applying kirchhoff's current law, we get that V0 = (4*R2+2*R1+R0)/7
+
 
 
 
