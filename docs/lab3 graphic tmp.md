@@ -118,14 +118,17 @@ Description of how the DAC on the provided VGA connectors works and how the resi
 
 #### VGA DAC
 The VGA connector we use in the lab used a resistor DAC (Digital-to-Analog-Converter) to onverts the 8 given color bits (3 bit for Red, 3 bit for Green, and 2 bit for Blue) at 3.3V form the FPGA to the desired three color 1V analog signals.
-Let consider the red signal first. The FPGA output a 3 bit (R0, R1, R2) digital signal for color red at 3.3V and the VGA take a 1V analog signal. The following schematic shows the basic logic behind the DAC for red signal: 
+Let consider the red signal first. The FPGA output a 3 bit (R0, R1, R2) digital signal for color red at 3.3V and the VGA take a 1V analog signal. The following schematic shows the basic logic behind the DAC for red signal:  
+
 ![DAC schematic](./image/lab3/DAC_schematic.JPG)  
 
-The example above use a .5kOhm, 1kOhm, and 2kOhm for the 3 digital output of Red. The value is choosen to be a factor of 2 apart since each bit of the 3 bit output(binary value) is a factor of 2 apart. This allows us to map the 3 digital output to a voltage between 0V to 1V. The following chart shows an approximate mapping: 
+The example above use a .5kOhm, 1kOhm, and 2kOhm for the 3 digital output of Red. The value is choosen to be a factor of 2 apart since each bit of the 3 bit output(binary value) is a factor of 2 apart. This allows us to map the 3 digital output to a voltage between 0V to 1V. The following chart shows an approximate mapping:  
+
 ![DAC chart](./image/lab3/DAC_chart.JPG)  
 
 The value in the chart is bwtween 0-1V, if the 3 digital input also operate at 1V. For the case of our 0V-3.3V output, we will need a simple voltage divider to lower the voltaeg range to 0V-1V.
 Here is the schematic with nodes label:
+
 ![DAC schematic2](./image/lab3/DAC_schematic2.JPG)  
 
 By applying kirchhoff's current law, we get that V0 = (4*R2+2*R1+R0)/7
