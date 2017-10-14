@@ -133,11 +133,9 @@ Here is a video of the simple base state:
 
 [![button grid video](./image/lab3/FPGA_base.JPG)](https://youtu.be/TJx6PqLpqdA)  
 
-**The VGA cable connecting to the monitor only has one wire for red, one wire for green, and one wire for blue. These are analog cables (they take values from 0 to 1 V). We have provided a Digital-to-Analog-Converter (DAC) that converts the 8 given color bits (with a 3.3V digital output from the FPGA) to the desired three color 1V analog signals. Given that the VGA display has an internal resistance of 50 Ohms, you must list the resistor values in your lab report and explain how they were chosen.
-Description of how the DAC on the provided VGA connectors works and how the resistor values were chosen.
 
 #### VGA DAC
-The VGA connector we use in the lab used a resistor DAC (Digital-to-Analog-Converter) to onverts the 8 given color bits (3 bit for Red, 3 bit for Green, and 2 bit for Blue) at 3.3V form the FPGA to the desired three color 1V analog signals.
+The VGA cable connecting to the monitor only has one wire for red, one wire for green, and one wire for blue. These are analog cables (they take values from 0 to 1 V). The VGA connector we use in the lab used a resistor DAC (Digital-to-Analog-Converter) to onverts the 8 given color bits (3 bit for Red, 3 bit for Green, and 2 bit for Blue) at 3.3V form the FPGA to the desired three color 1V analog signals.
 Let consider the red signal first. The FPGA output a 3 bit (R0, R1, R2) digital signal for color red at 3.3V and the VGA take a 1V analog signal. The following schematic shows the basic logic behind the DAC for red signal:  
 
 ![DAC schematic](./image/lab3/DAC_schematic.JPG)  
