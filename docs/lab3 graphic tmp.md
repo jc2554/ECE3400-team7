@@ -1,6 +1,7 @@
 ### Graphic
 Generating the input signal
-First, we wanted to create a 2 by 2 grid on the display. We declared a 2 by 2 array of bits representing the grid, and a wire that connect to the two input on-board button.
+First, we wanted to create a 2 by 2 grid on the display. We declared a 2 by 2 array of bits representing the grid, and a wire that connect to the two input on-board button.  
+![](./image/lab3/4square.JPG)
 
 ```Verilog
 //2-by-2 array of bits
