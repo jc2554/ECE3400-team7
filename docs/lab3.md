@@ -35,7 +35,7 @@ Mapping external inputs to four different outputs on the screen
 
 ### Acoustic
 
-We used the [![DE0-Nano Development Board for this lab]](https://www.altera.com/en_US/pdfs/literature/ug/DE0_Nano_User_Manual_v1.9.pdf). The FPGA was programmed using Quartus II software provided Altera. To connect the FPGA to the speaker, we first used the datasheet of the FPGA to do pin assignments. We then connected these pins through an [![8 bit DAC]](http://www.bourns.com/docs/Product-Datasheets/R2R.pdf) to the speaker. 
+We used the [DE0-Nano Development Board for this lab](https://www.altera.com/en_US/pdfs/literature/ug/DE0_Nano_User_Manual_v1.9.pdf). The FPGA was programmed using Quartus II software provided Altera. To connect the FPGA to the speaker, we first used the datasheet of the FPGA to do pin assignments. We then connected these pins through an [8 bit DAC](http://www.bourns.com/docs/Product-Datasheets/R2R.pdf) to the speaker. 
 
 We began by implementing the simplest waveform which was a square wave at 400Hz. We used the on-board 50MHz clock which meant that we had to divide down the clock to produce a square wave at the frequency that we wanted. In every cycle, the output should toggle twice as well. Therefore we needed to toggle every 50000000/(400*2) = 62500 cycles. We used a counter to count 62500 and every time the counter reached 62500, we toggled the output and reset the counter. Below is a picture of the wave that we obtained and a snippet of our code:
 
@@ -49,7 +49,7 @@ We began by implementing the simplest waveform which was a square wave at 400Hz.
 Here’s what it sounded like:
 
 
-[![Square Wave Tone]](https://youtu.be/94oU42XU6r8) 
+[Square Wave Tone](https://youtu.be/94oU42XU6r8) 
 
 
 
@@ -74,7 +74,7 @@ For the triangle wave, we wanted the output to gradually increase and then gradu
 And it sounded like:
 
 
-[![Triangle Wave Tone]](https://youtu.be/lnJT9_dF2mI) 
+[Triangle Wave Tone](https://youtu.be/lnJT9_dF2mI) 
 
 
 We used a ROM table for the sine wave generation. We used the following MATLAB code to generate the values that would be loaded on to the ROM:
@@ -106,9 +106,9 @@ In our top level file, we instantiated three modules which corresponded to three
 
 Oscilloscope demo:
 
-[![Oscilloscope Demo of the three frequencies]](https://youtu.be/K7GxZWxUlo4)
+[Oscilloscope Demo of the three frequencies](https://youtu.be/K7GxZWxUlo4)
 
 
 How it sounds:
 
-[![Three Frequency Tone]](https://youtu.be/ol8nvzl8iOY)
+[Three Frequency Tone](https://youtu.be/ol8nvzl8iOY)
