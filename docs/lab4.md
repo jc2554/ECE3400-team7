@@ -2,7 +2,13 @@
 
 ## Goals
 
-## Radio Team
+## Subteams
 
-## FPGA Team
+### Radio Team
 
+### FPGA Team
+
+## Procedure
+### Radio
+
+### FPGA
