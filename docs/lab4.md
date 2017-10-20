@@ -1,8 +1,8 @@
 ### Lab 4
 
-##Goals
+## Goals
 
-##Radio Team
+## Radio Team
 
-##FPGA Team
+## FPGA Team
 
