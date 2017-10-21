@@ -7,7 +7,7 @@
 ### Radio Team
 - Adrian Higgins Dohmann, Amanda Pathmanathan, JinJie Chen
 ### FPGA Team
--Sanush Nukshan, Khyati Sipani, Kenneth Huaman
+- Sanush Nukshan, Khyati Sipani, Kenneth Huaman
 ## Procedure
 ### Radio
 
