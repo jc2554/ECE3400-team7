@@ -10,12 +10,15 @@
 - Sanush Nukshan, Khyati Sipani, Kenneth Huaman
 ## Procedure
 ### Radio
-After downloading the radio library and having it installed with the Arduino IDE, we had more than one computer at our disposal, so we connected the transmitting and receiving ends of radio communication to two different laptops. 
+After downloading the radio library and having it installed with the Arduino IDE, we had more than one computer at our disposal, so we connected the transmitting and receiving ends of radio communication to two different laptops:
 
-We calculated our identifier using this formula: 2(3D + N) + X
-const uint64_tpipes[2]= ( 0x0000000014LL, 0x0000000015LL)
+We calculated our identifier using this formula: 2*(3D + N) + X
+We are the Monday night lab (D=1), Team 7 (N=7)
+so 2*(3(1)+7)+0= 20 and  2*(3(1)+7)+1= 21 (both in decimal) 
+In hex they are: 14 and 15
+const uint64_tpipes[2]= (0x0000000014LL, 0x0000000015LL)
 
-Sending the maze: 
+The Maze Array: 
 We open the serial monitor and type in "T", which starts Transmit Mode. 
 
 The transmitter will begin sending:
