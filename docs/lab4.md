@@ -10,6 +10,29 @@
 - Sanush Nukshan, Khyati Sipani, Kenneth Huaman
 ## Procedure
 ### Radio
+After downloading the radio library and having it installed with the Arduino IDE, we had more than one computer at our disposal, so we connected the transmitting and receiving ends of radio communication to two different laptops. 
+
+We calculated our identifier using this formula: 2(3D + N) + X
+const uint64_tpipes[2]= ( 0x0000000014LL, 0x0000000015LL)
+
+Sending the maze: 
+We open the serial monitor and type in "T", which starts Transmit Mode. 
+
+The transmitter will begin sending:
+unsigned char maze[5][5] =
+{
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+};
+
+The receiver should be getting a maze and when we start iterating through the maze, the maze should continue to update at the receiving end. It increments each element in the array by 1 and goes through all y coordinates(rows) first before moving to the next x coordinate (column). This is demonstrated in the video below: 
+
+//video of transmitter and receiver -- the timestamps and iterating maze array
+
+
 
 ### FPGA
 
