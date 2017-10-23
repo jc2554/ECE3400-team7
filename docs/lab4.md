@@ -10,7 +10,7 @@
 - Sanush Nukshan, Khyati Sipani, Kenneth Huaman
 ## Procedure
 
-~~ STILL NEED TO FIGURE OUT HOW TO DISPLAY YOUTUBE VIDEOS AND NEED THE PACKET INFORMATION (HOW WE CALCULATED THAT)
+~~ STILL NEED TO FIGURE OUT HOW TO DISPLAY YOUTUBE VIDEOS AND NEED THE PACKET INFORMATION (HOW WE CALCULATED THAT), ALSO NEED CODE SAMPLES (NO ACCESS TO CODE REPOSITORY)
 ### Radio
 After downloading the radio library and having it installed with the Arduino IDE, we had more than one computer at our disposal, so we connected the transmitting and receiving ends of radio communication to two different laptops:
 
