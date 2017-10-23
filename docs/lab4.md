@@ -33,10 +33,16 @@ unsigned char maze[5][5] =
 
 The receiver should be getting a maze and when we start iterating through the maze, the maze should continue to update at the receiving end. It increments each element in the array by 1 and goes through all y coordinates(rows) first before moving to the next x coordinate (column). This is demonstrated in the video below: 
 
-[![](./image/lab4/IMG_3716.mov)](https://youtu.be/KNLFmP_W6XA)
-[![](./image/lab4/IMG_3715.mov)](https://youtu.be/_CwknqWVh10)
+[![The whole setup](./image/lab4/IMG_3716.mov)](https://youtu.be/KNLFmP_W6XA)
+
+
+[![Iterating maze array](./image/lab4/IMG_3715.mov)](https://youtu.be/_CwknqWVh10)
+
+
 ![](./image/lab4/IMG_0021.JPG)
-[![](./image/lab4/IMG_3741-2.mov)](https://youtu.be/DG-bNLUZ5qI)
+
+
+[![The result on screen](./image/lab4/IMG_3741-2.mov)](https://youtu.be/DG-bNLUZ5qI)
 
 
 
