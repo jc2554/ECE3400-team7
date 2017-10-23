@@ -44,15 +44,16 @@ For this subsection of the lab, the main component was the DE0 Nano FPGA. It was
 Starting off from the work of the FPGA subteam of lab 3 last week, the Verilog code was first optimized to work off of two nested for loops. 
 ![show modified code to create grid](./image/lab4/flavaflav.png)
 The code was then modified to display the 5x4 grid by extending the iterations through the loop. The grid, like last week, was composed of white tiles amongst a black background. At a certain grid location determined by current_x and current_y, the tile would turn green. An additional consideration to implemenent a way to keep track of visited tile, is to note the previous current_x and current_y as prev_x and prev_y respectively, and turn the tile at that old location blue. Some of the declarations can be seen below, and 'message[7]; will be explained later as well.
-![message](./image/lab4/message.png)
+![message](./image/lab4/message.png) 
+Furthermore, the logic behind how the grid color would transition was also changed, and the suggestion from lab 3 of using a state machine was used in this implementation. The applicable code segment that was used for this lab is seen below:
+![datState](./image/lab4/yeaboiii.png)
 
 For the aforementioned interaction with the radio on the sending Arduino, the code had to be modified additionally to take in the input from a receiving arduino. Our team decided to use parallel communication for the sake of this lab, with the information being sent in two packets. A voltage divider bridge had to be wired up to connect the receiving Arduino and the FPGA, since the Arduino outputs 5V and the FPGA takes in 3.3V. The hardware setup can be seen below:
 ![](./image/lab4/IMG_8012.JPG)
 The input from the receiving Arduino was called message, which was a 8 bit wire directly connected to 8 of the GPIO-1 pins on the FPGA. The logic can be seen below.
 ![decode](./image/lab4/decode.png)
 
-A state machine was used for this lab, as seen below:
-![datState](./image/lab4/yeaboiii.png)
+
 
 
 The input from the arduino would give a current x and y position. 
