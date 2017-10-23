@@ -5,9 +5,10 @@
 ## Subteams
 
 ### Radio Team
-- Adrian Higgins Dohmann, Amanda Pathmanathan, JinJie Chen
+- Adrian Higgins Dohmann, Amanda Pathmanathan, JinJie Chen  
 ### FPGA Team
 - Sanush Nukshan, Khyati Sipani, Kenneth Huaman
+
 ## Procedure
 
 ~~ STILL NEED TO FIGURE OUT HOW TO DISPLAY YOUTUBE VIDEOS AND NEED THE PACKET INFORMATION (HOW WE CALCULATED THAT), ALSO NEED CODE SAMPLES (NO ACCESS TO CODE REPOSITORY)
@@ -24,6 +25,8 @@ The Maze Array:
 We open the serial monitor and type in "T", which starts Transmit Mode. 
 
 The transmitter will begin sending:
+
+```Arduino
 unsigned char maze[5][5] =
 {
 0, 0, 0, 0, 0,
@@ -32,6 +35,7 @@ unsigned char maze[5][5] =
 0, 0, 0, 0, 0,
 0, 0, 0, 0, 0,
 };
+```
 
 The receiver should be getting a maze and when we start iterating through the maze, the maze should continue to update at the receiving end. It increments each element in the array by 1 and goes through all y coordinates(rows) first before moving to the next x coordinate (column). This is demonstrated in the video below: 
 [![The whole setup](./image/lab4/WholeSetUp.png)](https://youtu.be/KNLFmP_W6XA)
