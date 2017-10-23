@@ -54,7 +54,7 @@ bit 2 is the LSB (least significant bit) and 8 is the MSB (most significant bit)
 
 
 This is a video of the final maze on the computer monitor-- white is unexplored areas, blue is explored, and green is the current location of the robot:
-[![The result on screen](./image/lab4/FinalMaze.png)](https://youtu.be/DG-bNLUZ5qI)
+
 
 
 ### FPGA
@@ -77,8 +77,6 @@ The input from the receiving Arduino was called message, which was a 8 bit wire 
 
 
 The input from the receiving arduino would give a current_x and current_y position as determined by the sending arduino. The sending Arduino was set to cycle through all the squares in the grid. At the corresponding coordinates the tile would temporaily be turned green, and the previous pair of coordinates would turn blue.
-//mention code that shows iput,
-\\ show video of the grid parsing through the x and y coordinates
 
 
-![parsingthrough](./image/lab4/IMG_3741-2.mov)
+[![The result on screen](./image/lab4/FinalMaze.png)](https://youtu.be/DG-bNLUZ5qI)
