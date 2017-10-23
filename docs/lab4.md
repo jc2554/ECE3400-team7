@@ -53,7 +53,7 @@ bit 2 is the LSB (least significant bit) and 8 is the MSB (most significant bit)
 
 
 
-This is a video of the final maze on the computer monitor-- white is unexplored areas, blue is explored, and green is the current location of the robot:
+A video of the final maze on the computer monitor can be seen at the bottom of the FPGA section. There, white is unexplored areas, blue is explored, and green is the current location of the robot:
 
 
 
