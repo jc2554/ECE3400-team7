@@ -24,11 +24,11 @@ We open the serial monitor and type in "T", which starts Transmit Mode.
 The transmitter will begin sending:
 unsigned char maze[5][5] =
 {
-0, 0, 0, 0, 0,;
-0, 0, 0, 0, 0,;
-0, 0, 0, 0, 0,;
-0, 0, 0, 0, 0,;
-0, 0, 0, 0, 0,;
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
 };
 
 The receiver should be getting a maze and when we start iterating through the maze, the maze should continue to update at the receiving end. It increments each element in the array by 1 and goes through all y coordinates(rows) first before moving to the next x coordinate (column). This is demonstrated in the video below: 
