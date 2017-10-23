@@ -36,7 +36,7 @@ The receiver should be getting a maze and when we start iterating through the ma
 ![](./image/lab4/IMG_3716.mov)
 ![](./image/lab4/IMG_3715.mov)
 ![](./image/lab4/IMG_0021.JPG)
-![](./image/lab4/IMG_3741-2.mov)
+![](./image/lab4/IMG_3741-2.mov)(https://youtu.be/DG-bNLUZ5qI)
 
 
 
