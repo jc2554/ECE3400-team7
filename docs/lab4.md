@@ -43,12 +43,13 @@ The receiver should be getting a maze and when we start iterating through the ma
 For this subsection of the lab, the main component was the DE0 Nano FPGA. It was connected to the Computer Monitor at the lab station via a VGA cable. Later on, both sections were combined when the Arduino from the Radio Subteam was connected to practice communication between the boards.
 Starting off from the work of the FPGA subteam of lab 3 last week, the Verilog code was first optimized to work off of two nested for loops. 
 ![show modified code to create grid](./image/lab4/flavaflav.png)
-The code was then modified to display the 5x4 grid by extending the iterations through the loop. The grid, like last week, was composed of white tiles amongst a black background. At a certain grid location determined by current_x and current_y, the tile would turn green. An additional consideration to implemenent a way to keep track of visited tile, is to note the previous current_x and current_y as prev_x and prev_y respectively, and turn the tile at that old location blue. Some of the declarations can be seen below, and 'message[7] will be explained later as well.
+The code was then modified to display the 5x4 grid by extending the iterations through the loop. The grid, like last week, was composed of white tiles amongst a black background. At a certain grid location determined by current_x and current_y, the tile would turn green. An additional consideration to implemenent a way to keep track of visited tile, is to note the previous current_x and current_y as prev_x and prev_y respectively, and turn the tile at that old location blue. Some of the declarations can be seen below, and 'message[7]; will be explained later as well.
 ![message](./image/lab4/message.png)
 
-The code had to be modified additionally to take in the input from an arduino. Our team decided to use parallel communication for the sake of this lab, with the information being sent in two packets. 
+For the aforementioned interaction with the radio on the sending Arduino, the code had to be modified additionally to take in the input from a receiving arduino. Our team decided to use parallel communication for the sake of this lab, with the information being sent in two packets. A voltage divider bridge had to be wired up to connect the receiving Arduino and the FPGA, since the Arduino outputs 5V and the FPGA takes in 3.3V. The hardware setup can be seen below:
 ![](./image/lab4/IMG_8012.JPG)
-
+The input from the receiving Arduino was called message, which was a 8 bit wire directly connected to 8 of the GPIO-1 pins on the FPGA. The logic can be seen below.
+![decode](./image/lab4/decode.png)
 
 A state machine was used for this lab, as seen below:
 ![datState](./image/lab4/yeaboiii.png)
@@ -59,7 +60,7 @@ At those coordinates the tile would temporaily be turned green.
 //mention code that shows iput,
 \\ show video of the grid parsing through the x and y coordinates
 
-![decode](./image/lab4/decode.png)
+
 ![struct](./image/lab4/structural.png)
 
 ![ports](./image/lab4/portdecal.png)
