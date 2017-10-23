@@ -61,8 +61,6 @@ At those coordinates the tile would temporaily be turned green.
 \\ show video of the grid parsing through the x and y coordinates
 
 
-![struct](./image/lab4/structural.png)
-
 ![ports](./image/lab4/portdecal.png)
-![regs](./image/lab4/regdecs.png)
+
 ![parsingthrough](./image/lab4/IMG_3741-2.mov)
