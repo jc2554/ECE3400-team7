@@ -71,7 +71,7 @@ Furthermore, the logic behind how the grid color would transition was also chang
 
 ![datState](./image/lab4/yeaboiii.png)
 
-For the aforementioned interaction with the radio on the sending Arduino, the code had to be modified additionally to take in the input from a receiving arduino. Our team decided to use parallel communication for the sake of this lab, with the information being sent in two packets. As mentioned above, message[7] is the wire which denotes the packet currently being sent. A voltage divider bridge had to be wired up to connect the receiving Arduino and the FPGA, since the Arduino outputs 5V and the FPGA takes in 3.3V. The hardware setup can be seen below:
+For the aforementioned interaction with the radio on the sending Arduino, the code had to be modified additionally to take in the input from a receiving arduino. Our team decided to use parallel communication for the sake of this lab, with the information being sent in two packets. As mentioned above to be explained later, message[7] is the wire which carries the value of the input pin from the receiving Arduino that denotes the packet currently being sent. A voltage divider bridge had to be wired up to connect the receiving Arduino and the FPGA, since the Arduino outputs 5V and the FPGA takes in 3.3V. The hardware setup can be seen below:
 
 ![](./image/lab4/IMG_8012.JPG)
 
