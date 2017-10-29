@@ -118,5 +118,8 @@ else
     break
 end
 ```
+Running our Matlab script, we can see the following behavior:
+[![ttttt](./image/milestone3/Untitled.png)](https://youtu.be/wQSrGs_79XQ)
+
 
 ### Actual Maze Exploration
