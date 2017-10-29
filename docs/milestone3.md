@@ -43,14 +43,14 @@ while (true)
     if (wall_bin(1) == 0) %North neighbor
         segments= addSegment(segments,ID,getNodeID(curr_x,curr_y-1));
     end
+    if (wall_bin(2) == 0) %South neighbor
+        segments= addSegment(segments,ID,getNodeID(curr_x,curr_y+1));
+    end
     if (wall_bin(3) == 0) %East neighbor
         segments= addSegment(segments,ID,getNodeID(curr_x+1,curr_y));
     end
     if (wall_bin(4) == 0) %West neighbor
         segments= addSegment(segments,ID,getNodeID(curr_x-1,curr_y));
-    end
-    if (wall_bin(2) == 0) %South neighbor
-        segments= addSegment(segments,ID,getNodeID(curr_x,curr_y+1));
     end
     
 %======================
