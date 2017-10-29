@@ -121,5 +121,6 @@ end
 Running our Matlab script, we can see the following behavior:
 [![ttttt](./image/milestone3/Untitled.png)](https://youtu.be/wQSrGs_79XQ)
 
+Clearly, the algorithm needs to be updated to take into consideration direction and other potential factors (such as proximity to the center of the maze or if a specific node is only explorable from the current node) when deciding between two unexplored spaces that are the same distance. Such optimization will come later, but this search method does work everytime in the mean time.
 
 ### Actual Maze Exploration
