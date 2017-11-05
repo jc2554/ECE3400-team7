@@ -124,3 +124,20 @@ Running our Matlab script, we can see the following behavior:
 Clearly, the algorithm needs to be updated to take into consideration direction and other potential factors (such as proximity to the center of the maze or if a specific node is only explorable from the current node) when deciding between two unexplored spaces that are the same distance. Such optimization will come later, but this search method does work everytime in the mean time.
 
 ### Actual Maze Exploration
+Implementing maze exploration in our robot was fairly simple. We were able to use our movement code from Milestone 1, so maze exploration only required the addition of tracking direction and position. Because array indexing starts at 0 in C, we found it beneficial to create a new method of mapping coordinates to node IDs and node IDs to segment IDs. We used the following relation:
+```C
+NodeID= 4 * y + x;
+x= NodeID % 4;
+y= NodeID / 4;
+
+SegmentID= 2 * nodeA + (nodeB - nodeA - 1 > 0);
+```
+With this mapping for segment IDs, segment numbers can range from 0 to 36, which would make it convenient to use a 37 boolean long array to track discovered segments. We additionally require 20 booleans to track which nodes have been visited. In order to save memory, we chose to encode one value per bit with bitwise encodings. This allowed the visited nodes and discovered segments to be stored in arrays of 3 and 5 bytes, respectively. We then created methods to read and write values based on IDs so that these bitwise operations could be abstracted when writing code later.
+We store our current position and direction each in an unsigned character. The position simply holds the ID of our current node. The direction is coded with 1, 2, 4, 8 representing North, East, South, West. With this encoding, bitwise operations can be easily be used to perform operations on the direction.
+
+
+
+
+
+
+[![wwww](./image/milestone3/Capture.PNG)](https://youtu.be/RTK4Po0HNGw)
