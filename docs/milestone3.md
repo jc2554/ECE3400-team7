@@ -106,7 +106,7 @@ We wished to navigate our maze using a form of Dijkstra's algorithm. The idea is
 if(isempty(path)) 
     % We've finished our most recent path, get the new
     % shortest path to the next unvisited node.
-    path= dijkstra2(nodes, segments, ID, curr_loc);
+    path= dijkstra(nodes, segments, ID, curr_loc);
 end
 
 if (~isempty(path))
