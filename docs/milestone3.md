@@ -143,6 +143,6 @@ In moving our search algorithm from the MATLAB simulation to C, we found it wort
 To indicate when the maze has been fully explored, we installed an LED on the top of the robot. When the algorithm determines that it has fully completed exploration, it sets a boolean global variable *done* to true, turns on the LED, and breaks from the while loop that it is running in. The robot will then wait with the LED on until reset.
 
 The robot can be seen navigating the maze in the video below:
-[![wwww](./image/milestone3/AMAZINGVIDEO.PNG)](https://youtu.be/RTK4Po0HNGw)
+[![wwww](./image/milestone3/AMAZINGVIDEO.PNG)](https://youtu.be/TEWaeKLliJ4)
 
 Clearly, we must still make a few improvements if we wish to win the competition. We need to increase the physical speed of the robot, either through larger wheels, some sort of gearbox, or new motors. We need to modify our Dijkstra implementation to take turn time into account. These are problems for the future.
