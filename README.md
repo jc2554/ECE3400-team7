@@ -1,4 +1,6 @@
-## Team 7 ('17 Fall Lab Session: Monday Night)  
+## Team Kakashi (Team #7, Monday Night Session, Fall 2017) 
+
+![The team in action.](./docs/image/TEAM_KAKASHI.png)
 
 ### Lab
  - [Lab 1](./docs/lab1)
