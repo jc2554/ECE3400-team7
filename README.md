@@ -2,7 +2,7 @@
 
 ![The team in action.](./docs/image/TEAM_KAKASHI.png)
 
-Clearly the staff of ECE 3400 are big fans of Naruto. Why else would we have been named after the legendary Team 7?
+Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numbered our group after the legendary Team 7?
 
 ### Lab
  - [Lab 1](./docs/lab1)
