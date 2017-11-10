@@ -1,6 +1,7 @@
 ## Team Kakashi (Team #7, Monday Night Session, Fall 2017) 
 
 ![The team in action.](./docs/image/TEAM_KAKASHI.png)
+Clearly the staff of ECE 3400 are big fans of Naruto. Why else would we have been named after the legendary Team 7?
 
 ### Lab
  - [Lab 1](./docs/lab1)
