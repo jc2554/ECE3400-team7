@@ -7,7 +7,8 @@ The goal of the Optical subteam was to receive and categorize IR signals of vary
 
 ## Sub- teams:
 ### Optical 
-1. JinJie Chen; Kenneth Huaman; Adrian Higgins Dohmann
+1. JinJie Chen; Kenneth Huaman; Adrian Higgins Dohmann  
+
 ### Audio
 2. Amanda Pathmanathan; Khyati Sipani; Sanush Nukshan Kehelella
 
