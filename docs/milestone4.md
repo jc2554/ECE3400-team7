@@ -75,11 +75,15 @@ To test, we hard coded some Arduino messages and sent them through radio communi
 
 [![Display](./image/Display.png)](https://www.youtube.com/watch?v=jaDqG9BVMqA&feature=youtu.be)
 
+Finally, we tested the robot's actual maze exploration. Below is a video of our robot detecting walls, displaying done (the current cell turns purple), and playing the done signal. It is difficult to see the contrast in the current cell and the explored cells at first due to bad lighting, but it gets clearer later on in the video. We show the robot mapping the maze and the display side by side in the video.
+
+[![MazeExploration](./image/MazeExploration.png)](https://www.youtube.com/watch?v=guugPTCFmac&feature=youtu.be)
+
 
 ### Robot
 This milestone requires the addition of treasure detection and radio transmission into out robot. Few actual changes to the arduino code were required, merely integrating our already existing code from previous labs. 
 
-To add tresure detection, we added the setup and treasure detection methods from Lab 2 to our robot's code. We call the setup method from within our main setup. We modified the treasure sensor method to return an unsigned char 0, 1, 2, or 3 for no treasure, 7kHz, 12kHz, or 17kHz respectively. Now we need the treasure data at our current position. Conveniently, this format is the same format as our trasure data will be transmitted in communications with our base station.
+To add treasure detection, we added the setup and treasure detection methods from Lab 2 to our robot's code. We call the setup method from within our main setup. We modified the treasure sensor method to return an unsigned char 0, 1, 2, or 3 for no treasure, 7kHz, 12kHz, or 17kHz respectively. Now we need the treasure data at our current position. Conveniently, this format is the same format as our trasure data will be transmitted in communications with our base station.
 
 Unfortunately, we were not able to get the treasure sensors fully up and running in time for the submission deadline. The plan is as follows: In order to sense the actual treasures, we will install three IR treasure sensors, one each on the left, right, and front sides, onto our robot. There will only ever be one treasure per grid space and we do not need to indicate direction, so it only matters if any of our sensors detects treasure. Because of this, we chose to conserve precious analog pins by summing the treasure sensor outputs. To do this, we will feed the treasure sensor outputs into a summing amplifier circuit and feed the total output into our analog input on the robot. The code and display is all up and running, we ran out of time before we could finish soldering up the sensors and amplifier.
 
