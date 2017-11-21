@@ -82,5 +82,3 @@ In order to sense the actual treasures, we installed three IR treasure sensors, 
 
 In order to integrate radio transmission, we added the setup method from Lab 4 and created a new function to transmit. We call the setup method from within our main setup. The new transmission function has inputs of our current position, our treasure information, our wall information, and whether we are done exporing the maze. Using basic bitwise operations, we encode our message and transmit it to the base station using our radio transmission code from Lab 4.
 
-Putting it all together, we can see the robot exploring a maze and updating the base station as it does so in the video below:
-
