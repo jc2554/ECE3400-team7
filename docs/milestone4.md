@@ -1,4 +1,11 @@
-## Milestone 4
+# Milestone 4
+By Sanush Nukshan, Khyati Sipani, Kenneth Huaman, Adrian Dohmann, Amanda Pathmanathan, JinJie Chen
+
+## Goal
+The goals of this milestone were to have the robot completely map the maze. To do this, we must display exlored and unexplored spaces, walls, treasure, and when exploration is done.
+
+## Lab Procedure
+### FPGA
 
 For Milestone 4, we had to incorporate all the blocks from the previous labs and milestones and assemble them into a fully functioning robot. In particular, the FPGA team had to merge the display system and sound system so that the messages received from the robot can be correctly decoded to indicate in addition to the explored, unexplored and current locations, the walls, treasure information and “done”. 
 
@@ -65,4 +72,15 @@ always @ (*) begin
 				end
 ```
 
-        
+
+### Robot
+This milestone requires the addition of treasure detection and radio transmission into out robot. Few actual changes to the arduino code were required, merely integrating our already existing code from previous labs. 
+
+To add tresure detection, we added the setup and treasure detection methods from Lab 2 to our robot's code. We call the setup method from within our main setup. We modified the treasure sensor method to return an unsigned char 0, 1, 2, or 3 for no treasure, 7kHz, 12kHz, or 17kHz respectively. Now we need the treasure data at our current position. Conveniently, this format is the same format as our trasure data will be transmitted in communications with our base station.
+
+In order to sense the actual treasures, we installed three IR treasure sensors, one each on the left, right, and front sides, onto our robot. There will only ever be one treasure per grid space and we do not need to indicate direction, so it only matters if any of our sensors detects treasure. Because of this, we chose to conserve precious analog pins by summing the treasure sensor outputs. To do this, we fed the treasure sensor outputs into a summing amplifier circuit and fed the total output into our analog input on the robot.
+
+In order to integrate radio transmission, we added the setup method from Lab 4 and created a new function to transmit. We call the setup method from within our main setup. The new transmission function has inputs of our current position, our treasure information, our wall information, and whether we are done exporing the maze. Using basic bitwise operations, we encode our message and transmit it to the base station using our radio transmission code from Lab 4.
+
+Putting it all together, we can see the robot exploring a maze and updating the base station as it does so in the video below:
+
