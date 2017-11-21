@@ -104,7 +104,7 @@ Once we are done coloring entire cells, we set a register called colorstate to v
 
 As for treasures, we color the center of a cell either red, green, or blue if grid array indicates the presence of a treasure. Red is for the 7 kHz treasure, Green is for the 12 kHz, and blue is for the 17 kHz.
 
-Below is a snippet of our code for the coloring of the cell background and the South Wall:
+Below is a snippet of our code for the coloring of the cell background and the South and North Walls:
 
 ```Verilog
 always @ (*) begin
@@ -116,8 +116,8 @@ always @ (*) begin
 				end
 				
 				else begin
-
-				if(PIXEL_COORD_X > (x*grid_width) && PIXEL_COORD_X < ((x+1)*grid_width) && PIXEL_COORD_Y > (y*grid_width) &&    PIXEL_COORD_Y < ((y+1)*grid_width)) begin
+			 
+				if(PIXEL_COORD_X > (x*grid_width) && PIXEL_COORD_X < ((x+1)*grid_width) && PIXEL_COORD_Y > (y*grid_width) && PIXEL_COORD_Y < ((y+1)*grid_width)) begin
 					if (reset) PIXEL_COLOR = black;
 					else if (grid_array[y][x][1:0] == 2'd3) begin
 						if (!done) PIXEL_COLOR = orange;
@@ -129,27 +129,25 @@ always @ (*) begin
 				
 				end
 				
-				if ((grid_array[y][x]&12'b000000010000) != 12'b0 && color_state==2'd1 ) begin
+				if ((grid_array[y][x]&9'b000001000) && color_state==2'd1 ) begin
 					if (PIXEL_COORD_Y > (y*grid_width + 75) && PIXEL_COORD_Y < (y*grid_width + 85) && PIXEL_COORD_X > (x*grid_width) && PIXEL_COORD_X < ((x+1)*grid_width )) begin
 						PIXEL_COLOR = brown;
 						end
 					else PIXEL_COLOR = PIXEL_COLOR;
 				end
 				
-				if ((grid_array[y][x]&12'b000000001000) != 12'b0 && color_state==2'd1 ) begin
+				if ((grid_array[y][x]&9'b000000100) && color_state==2'd1 ) begin
 					if (PIXEL_COORD_Y > (y*grid_width - 5) && PIXEL_COORD_Y < (y*grid_width + 5) && PIXEL_COORD_X > (x*grid_width) && PIXEL_COORD_X < ((x+1)*grid_width )) begin
 						PIXEL_COLOR = brown;
 						end
 					else PIXEL_COLOR = PIXEL_COLOR;
 				end
+				
+					
 ```
 To test, we hard coded some Arduino messages and sent them through radio communication. Whilst doing so, we confirmed everything was being displayed correctly - treasures, walls, cell background, and the done signal. Below is a video of the display:
 
 [![Display](./image/Display.png)](https://www.youtube.com/watch?v=jaDqG9BVMqA&feature=youtu.be)
-
-Finally, we tested the robot's actual maze exploration. Below is a video of our robot detecting walls, displaying done (the current cell turns purple), and playing the done signal. It is difficult to see the contrast in the current cell and the explored cells at first due to bad lighting, but it gets clearer later on in the video. We show the robot mapping the maze and the display side by side in the video.
-
-[![MazeExploration](./image/MazeExploration.png)](https://www.youtube.com/watch?v=guugPTCFmac&feature=youtu.be)
 
 
 ### Robot
@@ -160,4 +158,8 @@ To add treasure detection, we added the setup and treasure detection methods fro
 Unfortunately, we were not able to get the treasure sensors fully up and running in time for the submission deadline. The plan is as follows: In order to sense the actual treasures, we will install three IR treasure sensors, one each on the left, right, and front sides, onto our robot. There will only ever be one treasure per grid space and we do not need to indicate direction, so it only matters if any of our sensors detects treasure. Because of this, we chose to conserve precious analog pins by summing the treasure sensor outputs. To do this, we will feed the treasure sensor outputs into a summing amplifier circuit and feed the total output into our analog input on the robot. The code and display is all up and running, we ran out of time before we could finish soldering up the sensors and amplifier.
 
 In order to integrate radio transmission, we added the setup method from Lab 4 and created a new function to transmit. We call the setup method from within our main setup. The new transmission function has inputs of our current position, our treasure information, our wall information, and whether we are done exporing the maze. Using basic bitwise operations, we encode our message and transmit it to the base station using our radio transmission code from Lab 4.
+
+Here is what we were able to accomplish. Below is a video of our robot detecting walls, displaying done (the current cell turns purple), and playing the done signal. It is difficult to see the contrast in the current cell and the explored cells at first due to bad lighting, but it gets clearer later on in the video. We show the robot mapping the maze and the display side by side in the video.
+
+[![MazeExploration](./image/MazeExploration.png)](https://www.youtube.com/watch?v=guugPTCFmac&feature=youtu.be) 
 
