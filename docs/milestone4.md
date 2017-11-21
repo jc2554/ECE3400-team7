@@ -70,7 +70,10 @@ always @ (*) begin
 						end
 					else PIXEL_COLOR = PIXEL_COLOR;
 				end
-```
+````
+To test, we hard coded some Arduino messages and sent them through radio communication. Whilst doing so, we confirmed everything was being displayed correctly - treasures, walls, cell background, and the done signal. Below is a video of the display:
+
+[![Display](./image/Display.png)](https://www.youtube.com/watch?v=jaDqG9BVMqA&feature=youtu.be)
 
 
 ### Robot
