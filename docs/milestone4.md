@@ -90,7 +90,6 @@ if (wall[0] == 1) begin
 			else grid_array[current_y][current_x][8] <= grid_array[current_y][current_x][8];
 			
 ```
-![](./image/gridarray.PNG)
 
 We finally made a simple edit to the acoustic code from lab 3 which simply waited for the done signal until it started outputting the tune to the DAC.  
 
@@ -98,7 +97,6 @@ We finally made a simple edit to the acoustic code from lab 3 which simply waite
 assign {GPIO_0_D[32],GPIO_0_D[30],GPIO_0_D[28],GPIO_0_D[26],GPIO_0_D[27],GPIO_0_D[29],GPIO_0_D[31],GPIO_0_D[33]} = (counter2 == 0 && done)? t1: (counter2 == 1 && done)? t2: (done)? t3: 0;
 ```
 
-![](./image/sound.PNG)
 
 As for coloring the grid, we worked off our implementation of the display from Lab 4. We have two for loops looping through all combinations of x and y, and if PIXEL_COORD_X and PIXEL_COORD_Y are in the cell the loops are currently in, then we color them either orange, yellow, purple or black depending on the information encoded in grid array. The last two bits of grid array indicate if a cell is current, explored, or unexplored, and the MSB of grid array indicates if our robot is done mapping the maze. Based on these values, the corresponding cell is assigned a color: the current cell is colored orange, an explored cell is colored yellow, an unexplored cell is colored black, and the current cell if the robot is done mapping is colored purple.
 
