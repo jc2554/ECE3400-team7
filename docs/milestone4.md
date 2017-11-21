@@ -27,7 +27,7 @@ As for treasures, we color the center of a cell either red, green, or blue if gr
 
 Below is a snippet of our code for the coloring of the cell background and the South Wall:
 
-```verilog
+```Verilog
 always @ (*) begin
 	PIXEL_COLOR = black;
 		for (x = 0; x < 4; x= x+1) begin
@@ -63,6 +63,6 @@ always @ (*) begin
 						end
 					else PIXEL_COLOR = PIXEL_COLOR;
 				end
-        ```
+```
 
         
