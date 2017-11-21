@@ -51,7 +51,7 @@ always @ (posedge message[7], posedge reset) begin
 			finalmessage <= finalmessage;
 		end
 	end
-	```
+```
 
 We also updated grid_array by setting bits according to if there were walls or treasures. While updating information about walls for the current location we also updated wall information for the neighboring locations since for example if the current location has a North Wall then the location the North of the current location would have a South Wall by default. 
 
@@ -88,7 +88,8 @@ if (wall[0] == 1) begin
 			 
 			if (treasure == 2'b11) grid_array[current_y][current_x][8] <= 1'b1; //Check for 17 kHz treasure
 			else grid_array[current_y][current_x][8] <= grid_array[current_y][current_x][8];
-	```
+			
+```
 ![](./image/gridarray.PNG)
 
 We finally made a simple edit to the acoustic code from lab 3 which simply waited for the done signal until it started outputting the tune to the DAC.  
@@ -143,7 +144,7 @@ always @ (*) begin
 						end
 					else PIXEL_COLOR = PIXEL_COLOR;
 				end
-````
+```
 To test, we hard coded some Arduino messages and sent them through radio communication. Whilst doing so, we confirmed everything was being displayed correctly - treasures, walls, cell background, and the done signal. Below is a video of the display:
 
 [![Display](./image/Display.png)](https://www.youtube.com/watch?v=jaDqG9BVMqA&feature=youtu.be)
