@@ -14,7 +14,10 @@ Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numb
  - [Milestone 1](./docs/milestone1)
  - [Milestone 2](./docs/milestone2)
  - [Milestone 3](./docs/milestone3)
- - [Milestone 4](./docs/milestone4)  
+ - [Milestone 4](./docs/milestone4) 
+ 
+ ### Ethics Homework
+ - [Ethics HW](./docs/Ethics_hw)
 
 ### Contributors
  - JinJie Chen              [jc2554](mailto:jc2554@cornell.edu)
