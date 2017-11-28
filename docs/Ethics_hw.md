@@ -2,7 +2,7 @@
 Team 7 (Monday Lab 7:30-10:30PM)                                                                                       
 Ethics HW (Elder-Care by Robots)
 
-    Today, many elderly either live alone, if they are capable, or are sent to live in a retirement house. 
+   Today, many elderly either live alone, if they are capable, or are sent to live in a retirement house. 
 Their children grow up and often become too busy to take care of them. Consequently, many elderly face 
 depression or severe health problems that come purely from being abandoned by their families and are left 
 to live a life of solitude. This is where robots or personal aids come into play. They can make up for 
