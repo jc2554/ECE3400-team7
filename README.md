@@ -1,4 +1,4 @@
-## Team Kakashi (Team #7, Monday Night Session, Fall 2017) 
+## Team Kakashi (Team 7: Monday Night Session, Fall 2017) 
 
 ![The team in action.](./docs/image/TEAM_KAKASHI.png)
 
