@@ -10,7 +10,7 @@ the lack of company by constantly being at the elder’s side and looking after 
 The goal is to make robots that have capabilities that go beyond what pets can do in that they can not 
 only provide companionship, but can also take care of the elderly. The stakeholders include: the elderly, 
 their family members, the companies inventing/manufacturing these robots, and the retirement homes. 
-    The utility test checks how well these robots will maximize everyone’s benefits. In this case, everyone
+	The utility test checks how well these robots will maximize everyone’s benefits. In this case, everyone
 definitely has something to gain. The companies that manufacture such robots now have enough demand to
 create a market to cater to, in which the elderly receive aid and companionship from the robots, the
 families do not have to worry about their elderly parents/grandparents as much, and the nursing homes 
@@ -26,7 +26,7 @@ that happening with an actual human caretaker. The caretaker could be bad at the
 experience, so switching out the caretaker with a robot kind of cancels out this con as well! Computers can 
 be more precise than a human in checking the patient’s vitals, but there is the chance for possible errors/bugs 
 that cause a mistake which cancels out robot and human error.
-    The justice test checks whether robots distribute a fair amount of benefits and burdens. We say yes because 
+	The justice test checks whether robots distribute a fair amount of benefits and burdens. We say yes because 
 every solution will have pros and cons and in this situation they balance out pretty evenly. As benefits, 
 there are the elderly who now have someone to look after them, the companies who now have a market for the
 robots, and the families who have a responsibility taken off their shoulders. Furthermore, the nursing homes 
@@ -39,7 +39,7 @@ to a senior citizen living on retirement savings. They might even need their fam
 which would extend the burden to them as well. Even though the robots can replace human caretakers, we should 
 take into account the possibility of bugs/errors causing the robot to malfunction, therefore putting the patient
 in a dangerous situation. 
-   The virtue test checks whether the robots will properly represent the companies that produce them. We say that
+	The virtue test checks whether the robots will properly represent the companies that produce them. We say that
 they do. For example, IBM does not have an official mission statement, but their values translate into the following: 
 dedication to every client’s success, Innovation that matters- for our company and for the world, and trust and 
 personal responsibility in all relationships 
@@ -49,7 +49,7 @@ MERA with a series of sensors that will allow it to detect any sudden changes in
 monitor the stove burners or whether the front door is open or closed 
 (http://www.businessinsider.com/ibm-pepper-robot-elder-care-2016-12). This shows how these companies can directly
 have an impact in the lives of these patients. 
-   There are many economic, political, and social constraints that would apply to a developed market for care robots. 
+	There are many economic, political, and social constraints that would apply to a developed market for care robots. 
 The main economic issue with this would be affordability for the target market group. This group includes the elderly, 
 their families, and nurseries and retirement homes. Just like most new inventions, the robots will be very expensive
 when they reach the market. Not everyone will have equal access to the robots, so they will become more of a luxury. 
@@ -67,7 +67,7 @@ having a malfunction. Such bugs could lead to an accident, and then it would bec
 and patient/patient’s family to decide who will take responsibility for the incident. Many companies may try to find
 a loophole so that they do not have to compensate the family for such accidents, and this would force many families 
 to spend time battling in the courts. 
-   Our team discussed all the issues that arise from using elderly care robots, and we came up with the following solutions.
+	Our team discussed all the issues that arise from using elderly care robots, and we came up with the following solutions.
 First, we proposed some laws that would protect the patients and their families from being deceived by companies that 
 try to get away with any errors in the robot that result in harm of the patient. There should be some type of waiver 
 or contract that sets the guidelines for what falls under the company’s responsibility versus that of the family. If
