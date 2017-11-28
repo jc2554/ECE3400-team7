@@ -18,9 +18,9 @@ Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numb
 
 ### Contributors
  - JinJie Chen              [jc2554](mailto:jc2554@cornell.edu)
- - Kenneth Cesar Huaman     [kch96](mailto:kch96@cornell.edu)
  - Khyati Sipani            [ks965](mailto:ks965@cornell.edu)
  - Adrian Dohmann           [ahd59](mailto:ahd59@cornell.edu)
+ - Kenneth Cesar Huaman     [kch96](mailto:kch96@cornell.edu)
  - Amanda Pathmanathan      [ap763](mailto:ap763@cornell.edu)
  - Sanush Nukshan Kehelella [snk32](mailto:snk32@cornell.edu)  
 
