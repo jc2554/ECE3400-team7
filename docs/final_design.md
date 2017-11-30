@@ -15,3 +15,8 @@ Enhancements beyond milestone 4
 
 ### Physical Parts
 
+
+
+![final robot](./docs/image/final_robot.jpg)
+
+#video
