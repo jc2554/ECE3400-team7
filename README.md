@@ -25,6 +25,6 @@ Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numb
  - Sanush Nukshan Kehelella [snk32](mailto:snk32@cornell.edu)  
 
 
-##### [Team Contract](https://docs.google.com/document/d/198_2G0pXLdzFmWx5OhAtgoEIT7_VQN-TdpwlbIea9Dk/edit?usp=sharing)
-##### [Meeting Minutes](https://drive.google.com/drive/folders/0BylhGVebGgo6N3QtZWxnd2c1eFU?usp=sharing)
-##### [Ethics Homework](https://docs.google.com/document/d/1p_nnQrR-Kc2QHLGv_RFKapw9C3CPZsgqkDzDtPqOlIE/edit)
+#### [Team Contract](./docs/team_contract)
+#### [Meeting Minutes](./docs/meeting_minutes)
+#### [Ethics Homework](./docs/ethics_hw)
