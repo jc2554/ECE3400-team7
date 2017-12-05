@@ -70,9 +70,9 @@
 
 ## 12/1/2017
 - 11:15 Begin meeting. 
-- Make a list of goals to accomplish before the final competition: better chassis, rewiring, etc.
-- Discuss schedules, and decide when to meet over the weekend.
-- Conclude meeting.
+- 11:16 Make a list of goals to accomplish before the final competition: better chassis, rewiring, etc.
+- 11:30 Discuss schedules, and decide when to meet over the weekend.
+- 11:35 Conclude meeting.
 
 
 
