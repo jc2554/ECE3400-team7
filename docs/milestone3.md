@@ -1,5 +1,5 @@
 # Milestone 3
-By Sanush Nukshan, Khyati Sipani, Kenneth Huaman, Adrian Dohmann, Amanda Pathmanathan, JinJie Chen
+By Sanush Nukshan, Khyati Sipani, Kenneth Huaman, Adrian, Amanda Pathmanathan, JinJie Chen
 
 ## Goal
 The goals of this milestone were as follows:
