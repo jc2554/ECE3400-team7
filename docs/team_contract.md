@@ -1,6 +1,6 @@
 # ECE 3400   Semester: Fall 2017     
 ## Team: #7  
-### Team Members: Amanda Pathmanathan, Khyati Sipani, Kenneth Cesar Huaman, JinJie Chen, Adrian Dohmann, Sanush Kehelella  
+### Team Members: Amanda Pathmanathan, Khyati Sipani, Kenneth Cesar Huaman, JinJie Chen, Adrian , Sanush Kehelella  
 
 ### Team Procedures
 - Our regular team meeting will be held on Friday from 4:30 - 5:30 in Upson or Duffield if there is no mandatory team meeting schedule for the week.
@@ -92,7 +92,7 @@ Every person on the team will have to take the role as a leader for at least two
   2. Amanda Pathmanathan _ _ _ _ _ _ _ _ _ _ _ date Sept 1, 2017
   3. Sanush Kehelella  _ _ _ _ _ _ _ _ _ _ _ _ _ _ date Sept 1, 2017
   4. JinJie Chen _ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ date Sept 1, 2017
-  5. Adrian Dohmann_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ date Sept 1, 2017
+  5. Adrian _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ date Sept 1, 2017
   6. Kenneth Huaman_ _ _ _ _ _ _ _ _ _ _ _ _ _ _date Sept 1, 2017
  
  
