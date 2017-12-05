@@ -1,20 +1,21 @@
-## Final Design
+# Final Design
 Enhancements beyond milestone 4  
 
-### FPGA
+## FPGA
 
 
-### Audio
+## Audio
 
 
-### Treasure Sensing
+## Treasure Sensing
 
 
-### Microphone
+## Microphone
 
 
-### Physical Parts
+## Physical Parts
 
+### Chasis
 
 
 ![final robot](./docs/image/final_robot.jpg)
