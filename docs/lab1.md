@@ -5,7 +5,7 @@ Learn basic functionalities of the Arduino Uno and the Arduino IDE, and assembly
 
 ## Sub-team
 1. JinJie Chen; Amanda Pathmanathan
-2. Kenneth Cesar Huaman; Khyati Sipani; Adrian Higgins Dohmann  
+2. Kenneth Cesar Huaman; Khyati Sipani; Adrian 
 Sanush Nukshan Kehelella hadn't joined the team yet
 
 ## Lab Procedure
