@@ -54,5 +54,6 @@ We set up several different mazes and tried to emulate the final competition sce
 
 
 #video
+[![mazevideo](./image/competitionmazerun.PNG)](https://youtu.be/jJJJDXnB0to) 
 
 ## Future Improvements
