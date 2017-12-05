@@ -1,5 +1,5 @@
 # Milestone 4
-By Sanush Nukshan, Khyati Sipani, Kenneth Huaman, Adrian Dohmann, Amanda Pathmanathan, JinJie Chen
+By Sanush Nukshan, Khyati Sipani, Kenneth Huaman, Adrian, Amanda Pathmanathan, JinJie Chen
 
 ## Goal
 The goals of this milestone were to have the robot completely map the maze. To do this, we must display exlored and unexplored spaces, walls, treasure, and when exploration is done.
