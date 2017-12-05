@@ -8,8 +8,7 @@ From Milestone 4, instead of coloring the cell purple when done, we divided the 
 
 We configured our display to display the walls bounding the maze at reset. Whilst doing so, the top and left walls were being cut off by the display. To fix this, we shifted our grid down and left by 10 pixels. The image below shows our display at reset:
 
-
-![Reset Display](./docs/image/ResetDisplay.png)
+![](./image/ResetDisplay.png)
 
 
 ## Audio
@@ -44,6 +43,6 @@ The previous setup was determined to be too slow. At first a gear box was consid
 The larger size of the wheels now obstructed the placement of the treasure and wall sensors. To accomodate this, a "wing" was designed which would circumvent the wheel and allow mounting of the sensors on the other side. After some difficulties in printing, it was decided that printing via acrylic would give better results. To make better use of the material and to give better support to the "wings", a new chasis was laser cut with the wings already incorporated.
 
 
-![final robot](./docs/image/final_robot.jpg)
+![](./image/final_robot.jpg)
 
 #video
