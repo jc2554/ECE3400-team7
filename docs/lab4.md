@@ -5,7 +5,7 @@
 ## Subteams
 
 ### Radio Team
-- Adrian Higgins Dohmann, Amanda Pathmanathan, JinJie Chen  
+- Adrian, Amanda Pathmanathan, JinJie Chen  
 ### FPGA Team
 - Sanush Nukshan, Khyati Sipani, Kenneth Huaman
 
