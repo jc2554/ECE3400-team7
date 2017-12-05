@@ -68,4 +68,11 @@
 - 11:17 Set plan for milestone 4
 - 11:20 Conclude meeting.
 
+## 12/1/2017
+- 11:15 Begin meeting. 
+- Make a list of goals to accomplish before the final competition: better chassis, rewiring, etc.
+- Discuss schedules, and decide when to meet over the weekend.
+- Conclude meeting.
+
+
 
