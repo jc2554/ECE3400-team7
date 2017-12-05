@@ -8,7 +8,7 @@ The goal of the Acoustic sub team was to use an FPGA to generate first a square 
 
 ## Sub- teams:  
 ### Graphic
-1. JinJie Chen; Adrian Higgins Dohmann; Amanda Pathmanathan
+1. JinJie Chen; Adrian; Amanda Pathmanathan
 ### Acoustic
 2. Khyati Sipani; Sanush Nukshan Kehelella; Kenneth Huaman
 
