@@ -4,9 +4,9 @@
 
 **Meet the winners of the Fall 2017 ECE 3400 Final Competition!**
 
-
-
+<p align="center">
 ![The team in action.](./docs/image/team_kakashi.png)
+</p>
 
 Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numbered our group after the legendary Team 7? Whatever you do, DO NOT click on the bottom left corner!!!
 
