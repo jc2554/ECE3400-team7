@@ -1,4 +1,4 @@
-##Parts List and Total Cost of the Robot
+## Robot Components and Cost
 
 PART | COST | QUANTITY | TOTAL
 ------- | ------ | ------ | -------
