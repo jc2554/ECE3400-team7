@@ -1,5 +1,7 @@
 # Final Design
-Enhancements beyond milestone 4  
+
+## Introduction and Motivations
+For the final design of the robot, we built on our progress from the previous labs and milestones. Some modifications were made to the made display, the done signal, treasure sensing, and the overall robot structure and wiring. The search algorithm was unchanged. Our focus during the last few days before the final competition was to achieve a fast speed that did not compromise on wall detection and treasure detection, have reliable communication between the FPGA and Arduino, and add to the project stylistically - a more sophisticated done signal, a creative display, and finally a nicer looking robot!
 
 ## FPGA
 A few modifications were made to our Verilog code to add more sophistication to our display from Milestone 4. We decided to show “done” by coloring the current cell with black and white checkers and displaying “DONE!” in blocked letters to the right of the maze. In addition, we adding blocked text saying “TEAM 7”, and moving ellipses to show that the robot was still mapping the maze. All this can be seen in the video below displaying the final robot mapping the maze.
@@ -51,6 +53,8 @@ We connected the button to power and ground, using a resistor of 56kOhm. We just
 ### LEDs
 This was purely for fun. We ordered a pack of LEDs strings that came in different colors and were powered by their own battery pack, which made it easy to add to the robot at the end. This meant it would not interfere with the robot's functions in any way besides taking up some space. We lined blue LEDs around the bottom of the robot so that it would reflect against the white maze as it moved during the competition. They also complimented the blue rims on our wheels.
 
+Below is a labelling of the parts of our robot:
+
 ![final robot](./image/robot1.jpg)
 ![final robot](./image/robot2.jpg)
 ![final robot](./image/robot3.jpg)
@@ -60,8 +64,6 @@ We set up several different mazes and tried to emulate the final competition sce
 
 ![final robot](./docs/image/final_robot.jpg)
 
-
-
 First round of the competition:
 [![mazevideo](./image/competitionmazerun.PNG)](https://youtu.be/jJJJDXnB0to) 
 
@@ -69,3 +71,8 @@ Final round of the competition:
 [![mazevideo3](./image/competitionmazerun3.PNG)](https://youtu.be/WRyaERyyyag) 
 
 ## Future Improvements
+If we had the chance to improve our robot, there are a few things we would do:
+1. Use PCBs intead of perf boards, as it would make the robot look neater
+2. Fine tune the turning of our robot
+3. Implement Serial communication instead of parallel communication from the FPGA to the Arduino as it would use less pins
+4. Cleaner wiring - possibly incorporate color coding 
