@@ -30,3 +30,4 @@ Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numb
 #### [Team Contract](./docs/team_contract)
 #### [Meeting Minutes](./docs/meeting_minutes)
 #### [Ethics Homework](./docs/ethics_hw)
+#### [Robot Components and Cost](./docs/cost)
