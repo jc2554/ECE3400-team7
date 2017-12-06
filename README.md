@@ -1,8 +1,8 @@
 ## Team Kakashi (Team 7: Monday Night Session, Fall 2017) 
 
-### Meet the winners of the Fall 2017 ECE 3400 Final Competition!
-
 ![Team Picture.](./docs/image/TeamPicture.jpg)
+
+**Meet the winners of the Fall 2017 ECE 3400 Final Competition!**
 
 ![The team in action.](./docs/image/team_kakashi.png)
 
@@ -26,7 +26,7 @@ Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numb
 ### Contributors
  - JinJie Chen              [jc2554](mailto:jc2554@cornell.edu)
  - Khyati Sipani            [ks965](mailto:ks965@cornell.edu)
- - Adrian
+ - Adrian Dohmann           [ahd59](mailto:ahd59@cornell.edu)
  - Kenneth Cesar Huaman     [kch96](mailto:kch96@cornell.edu)
  - Amanda Pathmanathan      [ap763](mailto:ap763@cornell.edu)
  - Sanush Nukshan Kehelella [snk32](mailto:snk32@cornell.edu)  
