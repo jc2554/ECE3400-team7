@@ -1,6 +1,6 @@
 ## Team Kakashi (Team 7: Monday Night Session, Fall 2017) 
 
-![The team in action.](./docs/image/TEAM_KAKASHI.png)
+![The team in action.](./docs/image/TEAMPIC.png)
 
 Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numbered our group after the legendary Team 7? Whatever you do, DO NOT click on the bottom left corner!!!
 
