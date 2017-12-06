@@ -12,5 +12,5 @@ Misc. electronic components | $0 | - | $0
 Misc. small parts  | $0 | - | $0
 Arduino Uno | $0 | 2 | $0
 FPGA | $0 | 1 | $0
-LED light string | $2 | 1 | $2
-Total cost ||| $71
+LED light string | $13.99 | 1 | $13.99
+Total cost ||| $82.99
