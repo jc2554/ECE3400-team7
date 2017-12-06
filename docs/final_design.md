@@ -75,4 +75,7 @@ If we had the chance to improve our robot, there are a few things we would do:
 1. Use PCBs intead of perf boards, as it would make the robot look neater
 2. Fine tune the turning of our robot
 3. Implement Serial communication instead of parallel communication from the FPGA to the Arduino as it would use less pins
-4. Cleaner wiring - possibly incorporate color coding 
+4. Cleaner wiring - possibly incorporate color coding
+
+## Conclusion
+This class was a great learning experience! Not only did we all grow our skillsets, we most importantly learned how to build off each other's strengths as a team and enjoy the experience of working with each other. We are all very proud of our robot, and would like to thank the ECE 3400 course staff for all their help and inspiration!
