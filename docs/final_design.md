@@ -54,8 +54,7 @@ This was purely for fun. We ordered a pack of LEDs strings that came in differen
 
 Below is a labelling of the parts of our robot:
 
-![final robot](./image/robot1.jpg)
-![final robot](./image/robot2.jpg)
+![final robot](./image/robot1.jpg) ![final robot](./image/robot2.jpg)
 ![final robot](./image/robot3.jpg)
 
 
