@@ -33,17 +33,20 @@ else if (counter1 == 12500000 && counter2 == 2) begin counter2 <= 4'd3; counter1
 
 ## Treasure Sensing
 ### Treasure Sensor Circuit
-The same design was kept as in milestone 4, but the I/O was resoldered.
+The same design was kept as in milestone 4, but the I/O was resoldered. We also readjusted the height to better detect treasures and fit the new chassis design, hot-gluing each sensor to the bottom of the left, right, and center wall sensors. We had to be careful in making sure the wires from the treasure sensors did not interfere with the wall sensors. 
 ### Amplifier Circuit
 The design for the Active High Pass Filter was dropped due to unreliability in performance. One day it would work, the next it would fail. It was decided that a standard non-inverting amplifier would be used for the signal, with an amplitude amplification of 18. This design was also soldered onto a perf board for later use.
 ## Microphone
-
+The microphone was soldered onto the same board that connected all sensors to the arduino. It was able to successfully detect the 660Hz starting signal. However, the range was not that large until we lowered the threshold so that it could pick up the signal from where the speakers were set during the competition (around 4-5 inches away). We decided not to use the op amp that we tried to make in lab 2 since it was not reliable.  
 
 ## Physical Parts
 ### Wheels
 The previous setup was determined to be too slow. At first a gear box was considered, but 3D printing it proved too difficult. So larger wheels were found from a previous year.
 ### Chassis
 The larger size of the wheels now obstructed the placement of the treasure and wall sensors. To accomodate this, a "wing" was designed which would circumvent the wheel and allow mounting of the sensors on the other side. After some difficulties in printing, it was decided that constructing the piece from laser cut acrylic would give better results. To make better use of the material and to give better support to the "wings", a new chasis was laser cut with the wings already incorporated.
+
+### Emergency Start Button
+We connected the button to power and ground, using a resistor of 56kOhm. We just directly soldered copper wires to the contacts on the button. This was also connected to the arduino. Fortunately, we did not have to use it during the competition. 
 
 ## Final Testing
 We set up several different mazes and tried to emulate the final competition scenario. For example, we made sure our robot moved at the start signal and adjusted our threshold accordingly, and also adjusted our threshold for treasure detection. We set up tight mazes that would challenge our robot's turning capabilities, and made sure our robot was able to traverse through. We also charged spare power banks over night so we were prepared for the day of the competition!
