@@ -90,4 +90,4 @@ If we had the chance to improve our robot, there are a few things we would do:
 4. Cleaner wiring - possibly incorporate color coding
 
 ## Conclusion
-This class was a great learning experience! Not only did we all grow our skillsets, we most importantly learned how to build off each other's strengths as a team and enjoy the experience of working with each other. We are all very proud of our robot, and would like to thank the ECE 3400 course staff for all their help and inspiration!
+By setting realistic goals, making good progress on the labs and milestones, and communicating well as a team, we were able to accomplish building the robot we were envisioning. The class was a great learning experience; not only did we all grow our skillsets, we most importantly learned how to build off each other's strengths as a team and enjoy the experience of working with each other. We are all very proud of our robot, and would like to thank the ECE 3400 course staff for all their help and inspiration!
