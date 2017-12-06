@@ -56,7 +56,10 @@ We set up several different mazes and tried to emulate the final competition sce
 
 
 
-#video
+First round of the competition:
 [![mazevideo](./image/competitionmazerun.PNG)](https://youtu.be/jJJJDXnB0to) 
+
+Final round of the competition:
+[![mazevideo](./image/competitionmazerun2.PNG)](https://youtu.be/WRyaERyyyag) 
 
 ## Future Improvements
