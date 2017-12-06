@@ -60,6 +60,6 @@ First round of the competition:
 [![mazevideo](./image/competitionmazerun.PNG)](https://youtu.be/jJJJDXnB0to) 
 
 Final round of the competition:
-[![mazevideo](./image/competitionmazerun2.PNG)](https://youtu.be/WRyaERyyyag) 
+[![mazevideo3](./image/competitionmazerun3.PNG)](https://youtu.be/WRyaERyyyag) 
 
 ## Future Improvements
