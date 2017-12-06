@@ -46,11 +46,13 @@ The previous setup was determined to be too slow. At first a gear box was consid
 The larger size of the wheels now obstructed the placement of the treasure and wall sensors. To accomodate this, a "wing" was designed which would circumvent the wheel and allow mounting of the sensors on the other side. After some difficulties in printing, it was decided that constructing the piece from laser cut acrylic would give better results. To make better use of the material and to give better support to the "wings", a new chasis was laser cut with the wings already incorporated.
 
 ### Emergency Start Button
-We connected the button to power and ground, using a resistor of 56kOhm. We just directly soldered copper wires to the contacts on the button. This was also connected to the arduino. Fortunately, we did not have to use it during the competition. 
+We connected the button to power and ground, using a resistor of 56kOhm. We just directly soldered copper wires to the contacts on the button. This was also connected to the arduino. Fortunately, we did not have to use it during the competition.
+
+### LEDs
+This was purely for fun. We ordered a pack of LEDs strings that came in different colors and were powered by their own battery pack, which made it easy to add to the robot at the end. This meant it would not interfere with the robot's functions in any way besides taking up some space. We lined blue LEDs around the bottom of the robot so that it would reflect against the white maze as it moved during the competition. They also complimented the blue rims on our wheels.
 
 ## Final Testing
-We set up several different mazes and tried to emulate the final competition scenario. For example, we made sure our robot moved at the start signal and adjusted our threshold accordingly, and also adjusted our threshold for treasure detection. We set up tight mazes that would challenge our robot's turning capabilities, and made sure our robot was able to traverse through. We also charged spare power banks over night so we were prepared for the day of the competition!
-
+We set up several different mazes and tried to emulate the final competition scenario. For example, we made sure our robot moved at the start signal and adjusted our threshold accordingly, and also adjusted our threshold for treasure detection. We set up tight mazes that would challenge our robot's turning capabilities, and made sure our robot was able to traverse through. We also charged spare power banks over night so we were prepared for the day of the competition! If there are any new problems you run across in the finals days before competition (servos suddenly malfunctioning) definitely check your 5-V power bank and 9-V battery with a multimeter to make sure they are actually delivering the voltage they should be! 
 
 ![final robot](./docs/image/final_robot.jpg)
 
