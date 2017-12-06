@@ -77,8 +77,6 @@ A few more tips to help save time (simple things that people forget):
 4. Make sure vdd and gnd are not shorted BEFORE turning power on. 
 
 
-![final robot](./docs/image/final_robot.jpg)
-
 First round of the competition:
 [![mazevideo](./image/competitionmazerun.PNG)](https://youtu.be/jJJJDXnB0to) 
 
