@@ -3,7 +3,7 @@
 ## Introduction and Motivations
 For the final design of the robot, we built on our progress from the previous labs and milestones. Some modifications were made to the made display, the done signal, algorithm, treasure sensing, and the overall robot structure and wiring. Our focus during the last few days before the final competition was to achieve a fast speed that did not compromise on wall detection and treasure detection, have reliable communication between the FPGA and Arduino, an efficient algorithm, and add to the project stylistically - a more sophisticated done signal, a creative display, and finally a nicer looking robot!
 
-## FPGA and Audio
+## FPGA: Display and Audio
 A few modifications were made to our Verilog code to add more sophistication to our display from Milestone 4. We decided to show “done” by coloring the current cell with black and white checkers and displaying “DONE!” in blocked letters to the right of the maze. In addition, we adding blocked text saying “TEAM 7”, and moving ellipses to show that the robot was still mapping the maze. All this can be seen in the video below displaying the final robot mapping the maze.
 
 From Milestone 4, instead of coloring the cell purple when done, we divided the cell into a smaller 5x5 grid. If PIXEL_COORD_X and PIXEL_COORD_Y were in a cell that was supposed to be black, we set PIXEL_COLOR = black. Else, we set it to white. The same methodology was used to draw “TEAM 7” and “DONE!”, as well as the ellipses. 
