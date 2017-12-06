@@ -3,7 +3,7 @@
 ## Introduction and Motivations
 For the final design of the robot, we built on our progress from the previous labs and milestones. Some modifications were made to the made display, the done signal, treasure sensing, and the overall robot structure and wiring. The search algorithm was unchanged. Our focus during the last few days before the final competition was to achieve a fast speed that did not compromise on wall detection and treasure detection, have reliable communication between the FPGA and Arduino, and add to the project stylistically - a more sophisticated done signal, a creative display, and finally a nicer looking robot!
 
-## FPGA
+## FPGA and Audio
 A few modifications were made to our Verilog code to add more sophistication to our display from Milestone 4. We decided to show “done” by coloring the current cell with black and white checkers and displaying “DONE!” in blocked letters to the right of the maze. In addition, we adding blocked text saying “TEAM 7”, and moving ellipses to show that the robot was still mapping the maze. All this can be seen in the video below displaying the final robot mapping the maze.
 
 From Milestone 4, instead of coloring the cell purple when done, we divided the cell into a smaller 5x5 grid. If PIXEL_COORD_X and PIXEL_COORD_Y were in a cell that was supposed to be black, we set PIXEL_COLOR = black. Else, we set it to white. The same methodology was used to draw “TEAM 7” and “DONE!”, as well as the ellipses. 
@@ -13,8 +13,7 @@ We configured our display to display the walls bounding the maze at reset. Whils
 ![](./image/ResetDisplay.png)
 
 
-## Audio
-We decided to play the first two lines of “If you’re happy and you know it” instead of a simple 3 tone sound. To do this, we determined the piano notes for the song - for example the first line was “C C F F F F F F F E F G”, and determined the corresponding frequencies for each of these for a particular scale. Then, we created separate modules in Verilog for each of these frequencies by modifying the counter value from the files used in Lab 3 (See Section on Lab 3 for more details). Using the same code structure as Lab 3, we extended counter2 to be 4 bits wide, extended the ternary operator assigning to the GPIO pins to include the longer sequence of tones, and used a longer if statement that changed that value of counter2 after the desired note had been played for a specified time interval. Below is a snippet of the modified code:
+We also decided to play the first two lines of “If you’re happy and you know it” instead of a simple 3 tone sound for our done signal. To do this, we determined the piano notes for the song - for example the first line was “C C F F F F F F F E F G”, and determined the corresponding frequencies for each of these for a particular scale. Then, we created separate modules in Verilog for each of these frequencies by modifying the counter value from the files used in Lab 3 (See Section on Lab 3 for more details). Using the same code structure as Lab 3, we extended counter2 to be 4 bits wide, extended the ternary operator assigning to the GPIO pins to include the longer sequence of tones, and used a longer if statement that changed that value of counter2 after the desired note had been played for a specified time interval. Below is a snippet of the modified code:
 
 ```verilog 
 assign {GPIO_0_D[26],GPIO_0_D[28],GPIO_0_D[30],GPIO_0_D[32],GPIO_0_D[33],GPIO_0_D[31],GPIO_0_D[29],GPIO_0_D[27]} = 
@@ -76,6 +75,7 @@ A few more tips to help save time (simple things that people forget):
 3. Use the println() when debugging: it prints data from the sensors on the serial monitor so you can see exactly what is happening.
 4. Make sure vdd and gnd are not shorted BEFORE turning power on. 
 
+Below are videos of our robot from the final competition:
 
 First round of the competition:
 [![mazevideo](./image/competitionmazerun.PNG)](https://youtu.be/jJJJDXnB0to) 
