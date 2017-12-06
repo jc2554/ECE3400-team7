@@ -15,7 +15,7 @@ With these sensors, our robot can detect whether it is positioned straight or at
 
 ### Line Following
 Our algorithm for following a line works as follows:
-```C
+```Arduino
 if (middle sensor on black and left sensor on white and right sensor on white){ //robot is going straight
   forward
 } else if (middle sensor on black and left sensor on black and right sensor on white){ //robot is angled slightly to the right
@@ -44,7 +44,7 @@ We connected two additional QRE113 IR line sensors to the robot in order to dete
 When both of the two rear line sensors read a black line, we know that the robot has entered an intersection and is positioned directly over the center. At this point, the robot can stop and do whatever it needs to (detect treasure, determine next movement, turn, etc.) before exiting the intersection again. For the sake of convenience, we created a methods "follow line until reaching an intersection" which will follow a line until detecting an intersection, at which point it stops.
 
 Our turning algorithm works spinning both wheels in opposite directions and then stopping when the front middle sensor has arrived over a line again. At this point, the robot should have completed a 90 degree rotation in whichever direction it was set to spin and, even if it is slightly off center of the line, should be capable of tracking the line again from this point. The algorithm for our right turn looks like this:
-```C
+```Arduino
 spin left wheel forward
 spin right wheel backward
 while (front middle sensor on black line) { //wait until the sensor leaves the black line that it (presumably) started on
@@ -58,7 +58,7 @@ stop //turn is completed
 We chose to create methods for "right turn," "left turn," "turn 180 degrees right," and "turn 180 degrees left," the latter two methods consisting of two of their respective turns.
 
 To test our line tracking and turning algorithms, we strung together an ordered series of "turn" and "following line until reaching an intersection" commands to perform a figure 8. Our figure 8 was accoplished with the following set of instructions:
-```C
+```Arduino
 follow line until intersection
 turn right
 follow line until intersection
