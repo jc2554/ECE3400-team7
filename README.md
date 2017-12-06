@@ -1,9 +1,8 @@
 ## Team Kakashi (Team 7: Monday Night Session, Fall 2017) 
 
-
-![Team Picture.](./docs/image/TeamPicture.jpg)
 ### Meet the winners of the Fall 2017 ECE 3400 Final Competition!
 
+![Team Picture.](./docs/image/TeamPicture.jpg)
 
 ![The team in action.](./docs/image/team_kakashi.png)
 
