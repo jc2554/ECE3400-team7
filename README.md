@@ -1,12 +1,15 @@
 ## Team Kakashi (Team 7: Monday Night Session, Fall 2017) 
 
-Meet the winners of the Fall 2017 ECE 3400 Final Competition!
+#### Meet the winners of the Fall 2017 ECE 3400 Final Competition!
 
 ![The team in action.](./docs/image/TEAMPIC.png)
 
 Unfortunately, we did not take a team picture - but we do have a screeenshot of a snap story! 
 
 Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numbered our group after the legendary Team 7? Whatever you do, DO NOT click on the bottom left corner!!!
+
+
+### [Final Design and Final Competition](./docs/final_design) 
 
 ### Lab
  - [Lab 1](./docs/lab1)
@@ -19,8 +22,6 @@ Clearly the ECE 3400 staff are big fans of Naruto. Why else would they have numb
  - [Milestone 2](./docs/milestone2)
  - [Milestone 3](./docs/milestone3)
  - [Milestone 4](./docs/milestone4) 
-
-### [Final Design](./docs/final_design)  
 
 ### Contributors
  - JinJie Chen              [jc2554](mailto:jc2554@cornell.edu)
