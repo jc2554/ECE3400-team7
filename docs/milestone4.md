@@ -57,37 +57,37 @@ We also updated grid_array by setting bits according to if there were walls or t
 
 ```verilog
 if (wall[0] == 1) begin
-				grid_array[current_y][current_x][2] <= 1'b1; //N Wall
-				grid_array[current_y - 1][current_x][3] <= 1'b1;
-			end
-			else grid_array[current_y][current_x][2] <= grid_array[current_y][current_x][2];
+	grid_array[current_y][current_x][2] <= 1'b1; //N Wall
+	grid_array[current_y - 1][current_x][3] <= 1'b1;
+end
+else grid_array[current_y][current_x][2] <= grid_array[current_y][current_x][2];
+		 
+if (wall[2] == 1) begin
+	grid_array[current_y][current_x][3] <= 1'b1; //S Wall
+	grid_array[current_y + 1][current_x][2] <= 1'b1; 
+end
+else grid_array[current_y][current_x][3] <= grid_array[current_y][current_x][3];
 			 
-			if (wall[2] == 1) begin
-				grid_array[current_y][current_x][3] <= 1'b1; //S Wall
-				grid_array[current_y + 1][current_x][2] <= 1'b1; 
-			end
-			else grid_array[current_y][current_x][3] <= grid_array[current_y][current_x][3];
+if (wall[3] == 1) begin
+	grid_array[current_y][current_x][4] <= 1'b1; // W Wall
+	grid_array[current_y][current_x - 1][5] <= 1'b1; 
+end
+else grid_array[current_y][current_x][4] <= grid_array[current_y][current_x][4];
 			 
-			if (wall[3] == 1) begin
-				grid_array[current_y][current_x][4] <= 1'b1; // W Wall
-				grid_array[current_y][current_x - 1][5] <= 1'b1; 
-			end
-			else grid_array[current_y][current_x][4] <= grid_array[current_y][current_x][4];
-			 
-			if (wall[1] == 1)begin
-				grid_array[current_y][current_x][5] <= 1'b1;  // E Wall
-				grid_array[current_y][current_x + 1][4] <= 1'b1;
-			end
-			else grid_array[current_y][current_x][5] <= grid_array[current_y][current_x][5];
-			 
-			if (treasure == 2'b01) grid_array[current_y][current_x][6] <= 1'b1; //Check for 7 kHz treasure
-			else grid_array[current_y][current_x][6] <= grid_array[current_y][current_x][6];
-			 
-			if (treasure == 2'b10) grid_array[current_y][current_x][7] <= 1'b1; //Check for 12 kHz treasure
-			else grid_array[current_y][current_x][7] <= grid_array[current_y][current_x][7];
-			 
-			if (treasure == 2'b11) grid_array[current_y][current_x][8] <= 1'b1; //Check for 17 kHz treasure
-			else grid_array[current_y][current_x][8] <= grid_array[current_y][current_x][8];
+if (wall[1] == 1)begin
+	grid_array[current_y][current_x][5] <= 1'b1;  // E Wall
+	grid_array[current_y][current_x + 1][4] <= 1'b1;
+end
+else grid_array[current_y][current_x][5] <= grid_array[current_y][current_x][5];
+	 
+if (treasure == 2'b01) grid_array[current_y][current_x][6] <= 1'b1; //Check for 7 kHz treasure
+else grid_array[current_y][current_x][6] <= grid_array[current_y][current_x][6];
+		 
+if (treasure == 2'b10) grid_array[current_y][current_x][7] <= 1'b1; //Check for 12 kHz treasure
+else grid_array[current_y][current_x][7] <= grid_array[current_y][current_x][7];
+	 
+if (treasure == 2'b11) grid_array[current_y][current_x][8] <= 1'b1; //Check for 17 kHz treasure
+else grid_array[current_y][current_x][8] <= grid_array[current_y][current_x][8];
 			
 ```
 
@@ -106,7 +106,7 @@ As for treasures, we color the center of a cell either red, green, or blue if gr
 
 Below is a snippet of our code for the coloring of the cell background and the South and North Walls:
 
-```Verilog
+```verilog
 always @ (*) begin
 	PIXEL_COLOR = black;
 		for (x = 0; x < 4; x= x+1) begin
