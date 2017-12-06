@@ -37,7 +37,7 @@ The same design was kept as in milestone 4, but the I/O was resoldered. We also 
 ### Amplifier Circuit
 The design for the Active High Pass Filter was dropped due to unreliability in performance. One day it would work, the next it would fail. It was decided that a standard non-inverting amplifier would be used for the signal, with an amplitude amplification of 18. This design was also soldered onto a perf board for later use.
 ## Microphone
-The microphone was soldered onto the same board that connected all sensors to the arduino. It was able to successfully detect the 660Hz starting signal. However, the range was not that large until we lowered the threshold so that it could pick up the signal from where the speakers were set during the competition (around 4-5 inches away). We decided not to use the op amp that we tried to make in lab 2 since it was not reliable.  
+The microphone was soldered onto the same board that connected all sensors to the arduino. It was able to successfully detect the 660Hz starting signal. However, the range was not that large until we lowered the threshold so that it could pick up the signal from where the speakers were set during the competition (around 4-5 inches away). We decided not to use the simple RC low pass filter that we made in lab 2 since we still had issues with getting the op amp to work with the filter.  
 
 ## Physical Parts
 ### Wheels
