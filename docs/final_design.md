@@ -68,6 +68,11 @@ We set up several different mazes and tried to emulate the final competition sce
 
 We also charged spare power banks over night so we were prepared for the day of the competition! If there are any new problems you run across in the finals days before competition (servos suddenly malfunctioning) definitely check your 5-V power bank and 9-V battery with a multimeter to make sure they are actually delivering the voltage they should be!  
 
+Many of our soldered connections were made earlier in the semester so we noticed that a lot of the sensors stopped working here and there because of connections coming apart. We basically resoldered all the wires at some point before the final competition-- the braided wires that came from the servos were particularly difficult to solder. So definitely look at those connections when debugging! (between copper wires, braided wires, and make sure there are no shorted wires on perf boards, etc.)
+
+Make sure to check the datasheets for all sensors and parts you use, make sure you ground/power them accordingly!
+It never hurts to double check pin assignments!
+
 ![final robot](./docs/image/final_robot.jpg)
 
 First round of the competition:
